@@ -3,7 +3,7 @@ _layout: landing
 ---
 
 <div align="center">
-  <a href="/"><img src="images/Icon-Transparent-1024.png" width="300vh"></a>
+  <a href=""><img src="images/Icon-Transparent-1024.png" width="300vh"></a>
   <h1 id="main-title">Tears of the Kingdom Mod Manager</h1>
 </div>
 
