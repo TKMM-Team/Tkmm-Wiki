@@ -24,8 +24,10 @@
     ],
     "globalMetadata": {
       "_appName": "tkmm-wiki",
-      "_appTitle": "tkmm-wiki",
+      "_appTitle": "TKMM Wiki Home",
       "_enableSearch": true,
+      "_appLogoPath": "images/icon.png",
+      "_appFaviconPath": "images/icon.ico",
       "pdf": true
     }
   }
