@@ -21,7 +21,6 @@
     "template": [
       "default",
       "modern",
-      "templates/material",
       "templates/custom"
     ],
     "globalMetadata": {
