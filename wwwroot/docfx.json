@@ -20,15 +20,21 @@
     "output": "_site",
     "template": [
       "default",
-      "templates/minimal"
+      "modern",
+      "templates/material",
+      "templates/custom"
     ],
     "globalMetadata": {
-      "_appName": "tkmm-wiki",
-      "_appTitle": "TKMM Wiki Home",
+      "_appName": "TotK Mod Manager",
+      "_appTitle": "TKMM",
       "_enableSearch": true,
-      "_appLogoPath": "images/icon.png",
+      "_appLogoPath": "images/icon.ico",
       "_appFaviconPath": "images/icon.ico",
+      "_appFooter": "<div id=\"copyright\">© TKMM Team, 2023-2024</div>",
       "pdf": true
-    }
+    },
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ]
   }
 }

@@ -31,7 +31,7 @@ jobs:
         run: dotnet tool update -g docfx
 
       - name: Build DocFX
-        run: docfx docfx.json
+        run: docfx wwwroot/docfx.json
 
       - name: Setup Pages
         uses: actions/configure-pages@v4.0.0
@@ -39,7 +39,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
-          path: _site
+          path: wwwroot/_site
 
       - name: Deploy to GitHub Pages
         id: deployment

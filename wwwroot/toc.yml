@@ -1,0 +1,8 @@
+- name: Download
+  href: download/
+- name: Docs
+  href: docs/
+- name: FaQ
+  href: faq/
+- name: Learn
+  href: learn/

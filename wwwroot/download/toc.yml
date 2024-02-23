@@ -1,0 +1,4 @@
+- name: Download
+  href: index.md
+- name: Setup
+  href: setup/
