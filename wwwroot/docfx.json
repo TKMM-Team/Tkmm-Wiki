@@ -28,7 +28,7 @@
       "_appTitle": "TKMM",
       "_enableSearch": true,
       "_appLogoPath": "images/Icon-Transparent-1024.png",
-      "_appFaviconPath": "images/Icon.ico",
+      "_appFaviconPath": "images/icon.ico",
       "_appFooter": "<div id=\"copyright\">© TKMM Team, 2023-2024</div>",
       "pdf": true
     },
