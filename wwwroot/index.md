@@ -4,7 +4,7 @@ _layout: landing
 
 <div align="center">
   <img src="images/Icon-Transparent-1024.png" width="300vh">
-  <h1 style="font-family: Fira Sans">Tears of the Kingdom Mod Manager</h1>
+  <h1>Tears of the Kingdom Mod Manager</h1>
 </div>
 
 <p align="center" style="text-align: center;">
