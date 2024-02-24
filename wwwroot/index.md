@@ -1,5 +1,6 @@
 ---
 _layout: landing
+title: Home
 ---
 
 <div align="center">
