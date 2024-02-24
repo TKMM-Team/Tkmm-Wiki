@@ -56,7 +56,7 @@ code {
 }
 
 #download-btns {
-    margin: 5vh 0;
+    margin: 1vh 0 5vh 0;
     justify-items: center;
     align-items: center;
 }
@@ -94,6 +94,16 @@ code {
 
     &:hover {
         color: #f1dee2;
+    }
+}
+
+#download-macos {
+    background-color: #5aa65a;
+    color: #baefa0;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: #def3dc;
     }
 }
 
