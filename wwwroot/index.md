@@ -1,9 +1,10 @@
 ---
 _layout: landing
+title: Home
 ---
 
 <div align="center">
-  <img src="images/Icon-Transparent-1024.png" width="300vh">
+  <a href=""><img src="images/Icon-Transparent-1024.png" width="300vh"></a>
   <h1 id="main-title">Tears of the Kingdom Mod Manager</h1>
 </div>
 
