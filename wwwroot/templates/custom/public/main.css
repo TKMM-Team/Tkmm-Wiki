@@ -19,10 +19,6 @@
     --code-background: #434343;
 }
 
-p {
-    font-size: 1.2rem;
-}
-
 a {
     text-decoration: none;
 }
@@ -34,14 +30,14 @@ li {
 code {
     font-family: 'Ubuntu Mono';
     border-radius: var(--bs-border-radius);
-    background: var(--code-background);
     padding: 0.2rem;
-    font-size: 1.1rem;
     margin: 0.2rem 0;
+    background: var(--code-background);
+    font-size: 1.1rem;
 }
 
 .content {
-    margin: 0 15vh;
+    margin: 0 10vw;
 }
 
 #logo {
