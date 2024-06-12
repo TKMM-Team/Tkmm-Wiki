@@ -38,7 +38,7 @@ When TKMM first starts, you will likely be asked to configure your game path.
     <img width="550" src="./images/Settings_NoGamePath.png" alt="invalid settings page">
 </p>
 
-> [!IMPORTANT]
+> [!NOTE]
 > If you do not already have the game dump on your computer, please google how to do it.
 
 Once you have the game dump, use the `...` button to browse to that location.
@@ -47,11 +47,18 @@ Once you have the game dump, use the `...` button to browse to that location.
 
 When everything is done correctly, you should have something similar to this.
 
+> [!IMPORTANT]
+> The game dump provided must be the same version you are using on your Switch or emulator.
+>
+> For example, if you are playing `v1.1.2`, make sure your game dump is `v1.1.2` as well.
+
 <p>
     <img width="550" src="./images/Settings_WithGamePath.png">
 </p>
 
 > [!NOTE]
-> The status bar will still show an `Invalid setting, GamePath is invalid.` error. Click the `Save` button in the bottom left to resolve this and save the settings.
+> Even when the game path is correct, the status bar will still show an `Invalid setting, GamePath is invalid.` error. Click the `Save` button in the bottom left to resolve this and save the settings.
 
-To learn more about configuring the TKMM settings, read through the [settings](./settings) page.
+To learn more about configuring the TKMM settings, read through the [Settings](./settings) page.
+
+To get started using mods, check out the [Using Mods](./using-mods) page.
