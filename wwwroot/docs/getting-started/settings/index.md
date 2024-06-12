@@ -15,6 +15,7 @@ For all users, whether you plan to use TKMM to package mods or to merge mods to 
 ## Important Note Regarding Game Versions
 
 The version of your game dump is the version that TKMM will export mods for. For example, if your game dump is from v1.1.2 of TOTK, then TKMM's merged mod folder will be compatible with v1.1.2. TKMM's merging system is version agnostic, meaning that regardless of the game version a mod was made for, TKMM can export it to the version of your game dump.
+<br>
 ---
 Next, select the **Merging** tab. Here is an image of this tab, followed by a description of each of the options:
 
