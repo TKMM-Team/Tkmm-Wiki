@@ -11,7 +11,7 @@ title: Getting Started
 
 ---
 
-## Setup
+## Installation
 
 From the [downloads](../../downloads) page, locate the correct version for your operating system.
 
@@ -20,11 +20,35 @@ Click one of the options for `TKMM Launcher` to download a `zip` file containing
 If the correct [.NET runtime](../../downloads) is installed, the following window will open.
 
 <p>
-    <img width="550" src="../../images/Setup_01_Launcher.png" alt="tkmm launcher window">
+    <img width="550" src="./images/Launcher.png" alt="tkmm launcher window">
 </p>
 
-Once installation is complete, the Install button should change to say Launch. Click Launch to open TKMM. Once TKMM loads, you should land on the home screen.
+> [!WARNING]
+> If you are installing on the Steam Deck and/or cannot run as the super-user, uncheck `Create Shortcuts` to avoid needing elevated permissions.
 
-![Image of TKMM's Home page](../../images/Setup_02_Homepage.png)
+Click `Install` to begin the installation process.
 
-Go to the next section of the wiki to learn about how to configure the Settings for TKMM.
+When the installation completes, click `Launch` to open TKMM.
+
+## Setup
+
+When TKMM first starts, you will likely be asked to configure your game path.
+
+<p>
+    <img width="550" src="./images/Settings_NoGamePath.png" alt="invalid settings page">
+</p>
+
+> [!IMPORTANT]
+> If you do not already have the game dump on your computer, please google how to do it.
+
+Once you have the game dump, use the `...` button to browse to that location.
+
+> If the setting did not turn green, make sure you have a complete game dump and you selected the right folder (it will be the folder containing `ActorSystem`, `AI`, `AISchedule`, etc.).
+
+When everything is done correctly, you should have something similar to this.
+
+<p>
+    <img width="550" src="./images/Settings_WithGamePath.png">
+</p>
+
+To learn more about configuring the TKMM settings, read through the [settings](./settings) page.
