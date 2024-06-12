@@ -4,6 +4,8 @@
     <img width="550" src="./images/Settings_General_Application.png">
 </p>
 
+---
+
 ### Theme
 
 Controls the application theme. Options are `Dark` and `Light` (default is the system theme).
@@ -23,11 +25,15 @@ This is the folder where your mods and profiles are stored.
 > [!NOTE]
 > Unless you have low disk space on your system drive, it is recomended to leave this as the default.
 
+---
+
 ## Packaging Settings
 
 <p>
     <img width="550" src="./images/Settings_General_Packaging.png">
 </p>
+
+---
 
 ### Default Author
 
@@ -36,11 +42,15 @@ Controls is the default name to use when packaging new mods.
 > [!IMPORTANT]
 > By default this is your computers username. Make sure this does not contain sensetive information that may be packaged and deplyed in mods.
 
+---
+
 ## Merging Settings
 
 <p>
     <img width="550" src="./images/Settings_General_Merging.png">
 </p>
+
+---
 
 ### Merged Mod Output Folder
 
