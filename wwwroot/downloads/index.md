@@ -37,7 +37,7 @@ title: Downloads
 # [MacOS (Experimental)](#tab/macos)
 
 > [!WARNING]
-> MacOS is not officially supported by TKMM Team.
+> MacOS is not supported by TKMM Team. Expect bugs, crashes and limited usability.
 
 > Downloads for MacOS x64
 > 
