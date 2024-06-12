@@ -15,7 +15,7 @@ title: Getting Started
 
 From the [downloads](../../downloads) page, locate the correct version for your operating system.
 
-Click one of the options for `TKMM Launcher` to download a `zip` file containing `tkmm-launcher`. When the download has completed, extract and run the executable.
+Click one of the options for `TKMM Launcher` to download a `zip` file containing the `tkmm-launcher` executable. When the download has completed, extract and run this executable.
 
 If the correct [.NET runtime](../../downloads) is installed, the following window will open.
 
