@@ -55,11 +55,7 @@ title: Downloads
 
 ---
 
-<br>
-
 ## Supported Platforms
-
-<br>
 
 - **Windows 7+** | Fully supported
 - **Linux** | Partially supported
@@ -67,11 +63,7 @@ title: Downloads
   - **Switch (Lakka)** | Experimental
 - **MacOS** | Experimental
 
-<br>
-
 ## Source Code
-
-<br>
 
 <div id="download-btns">
   <a class="download-btn" id="download-src" href="https://github.com/TKMM-Team/Tkmm/archive/refs/heads/master.zip">Download Source Code</a>
