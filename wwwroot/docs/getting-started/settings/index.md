@@ -1,3 +1,7 @@
+---
+title: Settings
+---
+
 ## Application Settings
 
 <p>
