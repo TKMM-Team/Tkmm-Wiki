@@ -51,4 +51,7 @@ When everything is done correctly, you should have something similar to this.
     <img width="550" src="./images/Settings_WithGamePath.png">
 </p>
 
+> [!NOTE]
+> The status bar will still show an `Invalid settings` error. Click the `Save` button in the bottom left to resolve this and save the settings.
+
 To learn more about configuring the TKMM settings, read through the [settings](./settings) page.
