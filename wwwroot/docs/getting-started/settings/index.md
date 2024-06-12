@@ -2,10 +2,13 @@
 
  If you click on the three lines near the top left of the window, the navigation sidebar will expand to show the names of each tab. Click on the **Settings** tab, which is represented by the cogwheel icon.
 
-![Image of TKMM's Common Settings page](../../../images/Setup_03_CommonSettings.png)
+![Image of TKMM's Common Settings page before a valid game dump has been shown.](../../../images/Setup_03_CommonSettings_DumpInvalid.png)
 
 
-For all users, whether you plan to use TKMM to package mods or to merge mods to play with them, you will need to specify your game dump location. In the **Common** settings category, shown in the above image, choose the folder that contains a full romfs dump of Tears of the Kingdom. This is the folder that contains many other directories, such as a `Model` folder, a `Pack` folder, a `TexToGo` folder, and many others. 
+For all users, whether you plan to use TKMM to package mods or to merge mods to play with them, you will need to specify your game dump location. In the **Common** settings category, shown in the above image, choose the folder that contains a full romfs dump of Tears of the Kingdom. This is the folder that contains many other directories, such as a `Model` folder, a `Pack` folder, a `TexToGo` folder, and many others. If your dump is valid, the vertical line on the left side of the **Game Path** box will switch from red to green, as shown below:
+
+![Image of TKMM's Common Settings page before a valid game dump has been shown.](../../../images/Setup_03_CommonSettings_DumpValid.png)
+
 <br><br>
 ---
 ## Important Note Regarding Game Versions
