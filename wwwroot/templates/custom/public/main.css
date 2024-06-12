@@ -12,6 +12,7 @@
     --bs-border-radius: 0.2rem;
     --alert-info-color: #386ec0;
     --alert-warn-color: #ed7741;
+    --alert-danger-color: #be3961;
 }
 
 [data-bs-theme=dark] {
@@ -157,5 +158,13 @@ code {
 
     h5 {
         color: var(--alert-warn-color);
+    }
+}
+
+.alert-danger {
+    border-color: var(--alert-danger-color);
+
+    h5 {
+        color: var(--alert-danger-color);
     }
 }
