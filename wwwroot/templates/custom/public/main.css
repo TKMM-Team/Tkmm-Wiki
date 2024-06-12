@@ -10,6 +10,8 @@
     --code-background: #c7c7c7;
     --bs-code-color: #333537;
     --bs-border-radius: 0.2rem;
+    --alert-info-color: #386ec0;
+    --alert-warn-color: #ed7741;
 }
 
 [data-bs-theme=dark] {
@@ -25,6 +27,25 @@ a {
 
 li {
     margin: 1.2vh 0;
+}
+
+hr {
+    margin: 2rem 0;
+}
+
+h1,
+h2 {
+    margin: 0 0 2rem 0;
+}
+
+h3,
+h4 {
+    margin: 0 0 1.3rem 0;
+}
+
+h5,
+h6 {
+    margin: 0 0 0.9rem 0;
 }
 
 code {
@@ -88,12 +109,12 @@ code {
 }
 
 #download-linux {
-    background-color: #c73452;
-    color: #ecb1bd;
+    background-color: #654ccb;
+    color: #ad9ceb;
     transition: all 0.3s ease;
 
     &:hover {
-        color: #f1dee2;
+        color: #dad8f4;
     }
 }
 
@@ -114,5 +135,26 @@ code {
 
     &:hover {
         color: #d4d6e4;
+    }
+}
+
+.alert {
+    background: #2f000000;
+    color: var(--bs-color);
+}
+
+.alert-info {
+    border-color: var(--alert-info-color);
+
+    h5 {
+        color: var(--alert-info-color);
+    }
+}
+
+.alert-warning {
+    border-color: var(--alert-warn-color);
+
+    h5 {
+        color: var(--alert-warn-color);
     }
 }
