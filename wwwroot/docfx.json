@@ -29,7 +29,7 @@
       "_enableSearch": true,
       "_appLogoPath": "images/Icon-Transparent-1024.png",
       "_appFaviconPath": "images/icon.ico",
-      "_appFooter": "<div id=\"copyright\">© TKMM Team, 2023-2024</div>",
+      "_appFooter": "<div id=\"copyright\">© TKMM Team. MIT.</div>",
       "pdf": true
     },
     "postProcessors": [
