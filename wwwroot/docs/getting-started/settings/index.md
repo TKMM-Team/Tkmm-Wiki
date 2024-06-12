@@ -10,7 +10,6 @@ For all users, whether you plan to use TKMM to package mods or to merge mods to 
 ![Image of TKMM's Common Settings page before a valid game dump has been shown.](../../../images/Setup_03_CommonSettings_DumpValid.png)
 
 <br><br>
----
 
 ## Important Note Regarding Game Versions
 
