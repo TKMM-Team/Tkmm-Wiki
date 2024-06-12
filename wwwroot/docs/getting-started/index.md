@@ -52,6 +52,6 @@ When everything is done correctly, you should have something similar to this.
 </p>
 
 > [!NOTE]
-> The status bar will still show an `Invalid settings` error. Click the `Save` button in the bottom left to resolve this and save the settings.
+> The status bar will still show an `Invalid setting, GamePath is invalid.` error. Click the `Save` button in the bottom left to resolve this and save the settings.
 
 To learn more about configuring the TKMM settings, read through the [settings](./settings) page.
