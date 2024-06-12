@@ -1,4 +1,4 @@
-- name: Download
-  href: download/
+- name: Downloads
+  href: downloads/
 - name: Documentation
   href: docs/

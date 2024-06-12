@@ -37,3 +37,5 @@ By enabling this option, merging your mods will automatically export a copy of y
 4. Use Japanese Citrus Fruit
 
 By enabling this option, merging your mods will automatically export a copy of your Merged Mod Output Folder to the default mods path for Japanese Citrus Fruit. This is a quality of life option that mitigates the need for you to move your merged export to the emulator's mods folder yourself.
+
+This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
