@@ -67,3 +67,26 @@ In the mods list, on the right side of each mod's name, there is a checkbox. If 
 <p>
     <img width="650" src="./images/UseMods_06_02.png">
 </p>
+
+## Export to Switch (SD Card)
+
+For Switch users, `Export to an SD Card` is the best way to get your merged mods to your switch.
+
+<p>
+    <img width="650" src="./images/UseMods_07_01.png">
+</p>
+
+To use this feature, first make sure you have your SD card plugged in.
+
+Then navigate to `File` > `Export to SD Card`. This will open up a dialog where you can choose your SD Card.
+
+<p>
+    <img width="650" src="./images/UseMods_07_02.png">
+</p>
+
+After choosing the correct SD card from the dropdown, simply click `Export` and wait for the merge to complete.
+
+> [!WARNING]
+> Any existing `romfs` or `exefs` folders will be permanently deleted from `atmosphere/contents/0100F2C0115B6000`.
+>
+> Make sure there is nothing you wish to keep in those folders.
