@@ -62,7 +62,7 @@ In the mods list, on the right side of each mod's name, there is a checkbox. If 
     <img width="650" src="./images/UseMods_06_01.png">
 </p>
 
- Once your mods are successfully exported, you'll see this banner appear in the bottom right of TKMM as shown below, no matter which tab you are on. To ensure you don't miss it, it will not go away until you click on it. If you instead see a banner with a reddish pink line at the top, then your mods have failed to merge. Please reach out on the TKMM Discord Server for support.
+ Once your mods are successfully exported, you'll see this banner appear in the bottom right of TKMM as shown below, no matter which tab you are on. To ensure you don't miss it, it will not go away until you click on it. If you instead see a banner with a reddish pink line at the top, then your mods have failed to merge. Please reach out on the [TKMM Discord Server](https://discord.gg/BbVXenRFVc) for support.
 
 <p>
     <img width="650" src="./images/UseMods_06_02.png">
