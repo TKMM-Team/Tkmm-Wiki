@@ -1,6 +1,6 @@
 - name: Documentation
   href: index.md
-- name: FaQ
+- name: FAQ
   href: faq/
 - name: Getting Started
   href: getting-started/

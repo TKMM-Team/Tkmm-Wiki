@@ -1,1 +1,1 @@
-# FaQ
+# Frequently Asked Questions
