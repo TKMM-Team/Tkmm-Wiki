@@ -6,9 +6,9 @@ title: About
 ## TKMM Team
 
 - **[Arch Leaders](https://github.com/ArchLeaders)**: Lead Developer
-- **[Aster](https://github.com/AsteroidPizza39)**: Co-Founder & Operations Manager
+- **[Aster](https://github.com/AsteroidPizza39)**: Co-Founder, Artist, & Operations Manager
 - **[The5thTear](https://github.com/The5thTear)**: Co-Founder & Developer
-- **[Lord Bubbles](https://github.com/MasterBubbles)**: Developer & GTP Master
+- **[Lord Bubbles](https://github.com/MasterBubbles)**: Developer & GPT Master
 - **[Mikachan](https://github.com/okmika)**: Developer
 
 ---
