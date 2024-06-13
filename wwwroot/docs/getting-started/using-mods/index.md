@@ -28,7 +28,15 @@ Mods are sorted by most recently submitted or updated. You can use the search ba
 ## Configuring Options
 Mods packaged using TKMM can have Options to allow users to customize their experience with a specific mod. Option Groups are created by the mod developer when packaging a mod with TKMM, and they can be one of the following types: `Single`, `SingleRequired`, `Multiple`, and `MultipleRequired`. Both `Single` option group types only allow the user to choose a single option from the group. Both `Multiple` option group types allow the user to choose as many options from that group as they'd like. The `Required` option groups must have an option selected, and the groups that are not required do not have to be configured.
 
-To configure options for a given mod, click the mod's name in the mod list, and click on the `Configure Options` button at the top of the description section, found underneath the mod's thumbnail. After clicking on this, you will see all of the mod's Option Groups listed by name. Next to the name of the Option Group, the Option Group Type is listed. Simply expand the option group by clicking on it, and click to select options. You can click a selected option to deselect that option. When you are happy with your options, click on the back arrow in the top left of the window to return to the mod's main page.
+To configure options for a given mod, click the mod's name in the mod list, and click on the `Configure Options` button at the top of the description section, found underneath the mod's thumbnail.
+<p>
+    <img width="550" src="./images/UseMods_04_01.png">
+</p>
+
+After clicking on this, you will see all of the mod's Option Groups listed by name. Next to the name of the Option Group, the Option Group Type is listed. Simply expand the option group by clicking on it, and click to select options. You can click a selected option to deselect that option. When you are happy with your options, click on the back arrow in the top left of the window to return to the mod's main page.
+<p>
+    <img width="550" src="./images/UseMods_04_02.png">
+</p>
 
 ## Managing Profiles
 
