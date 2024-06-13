@@ -5,7 +5,7 @@ title: Settings
 ## Application Settings
 
 <p>
-    <img width="550" src="./images/Settings_General_Application.png">
+    <img width="650" src="./images/Settings_General_Application.png">
 </p>
 
 ---
@@ -34,7 +34,7 @@ This is the folder where your mods and profiles are stored.
 ## Packaging Settings
 
 <p>
-    <img width="550" src="./images/Settings_General_Packaging.png">
+    <img width="650" src="./images/Settings_General_Packaging.png">
 </p>
 
 ---
@@ -51,7 +51,7 @@ Controls is the default name to use when packaging new mods.
 ## Merging Settings
 
 <p>
-    <img width="550" src="./images/Settings_General_Merging.png">
+    <img width="650" src="./images/Settings_General_Merging.png">
 </p>
 
 ---

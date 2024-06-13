@@ -20,7 +20,7 @@ Click one of the options for `TKMM Launcher` to download a `zip` file containing
 If the correct [.NET runtime](../../downloads) is installed, the following window will open.
 
 <p>
-    <img width="550" src="./images/Launcher.png" alt="tkmm launcher window">
+    <img width="650" src="./images/Launcher.png" alt="tkmm launcher window">
 </p>
 
 > [!WARNING]
@@ -35,7 +35,7 @@ When the installation completes, click `Launch` to open TKMM.
 When TKMM first starts, you will likely be asked to configure your game path. 
 
 <p>
-    <img width="550" src="./images/Settings_NoGamePath.png" alt="invalid settings page">
+    <img width="650" src="./images/Settings_NoGamePath.png" alt="invalid settings page">
 </p>
 
 The accent color used in TKMM will vary based on your system's accent color.
@@ -55,7 +55,7 @@ When everything is done correctly, you should have something similar to this.
 > For example, if you are playing `v1.1.2`, make sure your game dump is `v1.1.2` as well.
 
 <p>
-    <img width="550" src="./images/Settings_WithGamePath.png">
+    <img width="650" src="./images/Settings_WithGamePath.png">
 </p>
 
 > [!NOTE]
