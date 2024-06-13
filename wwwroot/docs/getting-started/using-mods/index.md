@@ -56,4 +56,14 @@ To create a new profile, press the `+` button near the top of the window. To nam
 </p>
 
 ## Merging Mods
-In the mods list, on the right side of each mod's name, there is a checkbox. If the box is checked, that means the mod is enabled, and will be included in the merged export. If the box is unchecked, the mod is disabled, and it will not be included in the merged export. You can click and drag mods around to change their priority relative to one another. Mod's higher on the list will be given greater priority. For example, if two enabled mods each edit the same .bfres file, the mod with higher priority will have its changes applied, since bfres files don't support changelogs. When you are happy with your enabled mods and their priority, click `Merge` at the bottom of the screen. Your mods will be automatically merged and exported to the Merged Mod Output Folder specified in the settings
+In the mods list, on the right side of each mod's name, there is a checkbox. If the box is checked, that means the mod is enabled, and will be included in the merged export. If the box is unchecked, the mod is disabled, and it will not be included in the merged export. You can click and drag mods around to change their priority relative to one another. Mod's higher on the list will be given greater priority. For example, if two enabled mods each edit the same .bfres file, the mod with higher priority will have its changes applied, since bfres files don't support changelogs. When you are happy with your enabled mods and their priority, click `Merge` at the bottom of the screen. Your mods will be automatically merged and exported to the Merged Mod Output Folder specified in the settings.
+
+<p>
+    <img width="550" src="./images/UseMods_06_01.png">
+</p>
+
+ Once your mods are successfully exported, you'll see this banner appear in the bottom right of TKMM as shown below, no matter which tab you are on. To ensure you don't miss it, it will not go away until you click on it. If you instead see a banner with a reddish pink line at the top, then your mods have failed to merge. Please reach out on the TKMM Discord Server for support.
+
+<p>
+    <img width="550" src="./images/UseMods_06_02.png">
+</p>

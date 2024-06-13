@@ -32,14 +32,16 @@ When the installation completes, click `Launch` to open TKMM.
 
 ## Setup
 
-When TKMM first starts, you will likely be asked to configure your game path.
+When TKMM first starts, you will likely be asked to configure your game path. 
 
 <p>
     <img width="550" src="./images/Settings_NoGamePath.png" alt="invalid settings page">
 </p>
 
+The accent color used in TKMM will vary based on your system's accent color.
+
 > [!NOTE]
-> If you do not already have the game dump on your computer, please google how to do it.
+> If you do not already have the game dump on your computer, please google how to do it, as we cannot directly provide the resources needed to do so.
 
 Once you have the game dump, use the `...` button to browse to that location.
 
