@@ -21,7 +21,7 @@ title: Home
 </p>
 
 <div align="center">
-  <h4>Merge mods live never before!</h4>
+  <h4>Merge mods like never before!</h4>
 </div>
 
 ---
