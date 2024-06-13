@@ -3,7 +3,7 @@ _layout: landing
 title: About
 ---
 
-## TKKM Team
+## TKMM Team
 
 - **[Arch Leaders](https://github.com/ArchLeaders)**: Lead Developer
 - **[Aster](https://github.com/AsteroidPizza39)**: Co-Founder & Operations Manager
