@@ -11,6 +11,8 @@ You can install mods from a file archive, a folder, or from TKMM's built-in Game
 
 ### Installing Mods From An Archive
 TKMM supports installing mods from several archive types, including `rar`, `zip`, `7z`, and a custom format, `TKCL`. The first three are generic archive types that you may already be familiar with from using mods. `TKCL` files are produced by developers using TKMM, and are the best option when available, since they were specifically designed for use in TKMM. To install a mod from a file, you can drag and drop the file onto the homepage of TKMM, or locate it in your computer's files by choosing `Install File` in the `Mod` dropdown at the top of the window. If your active profile already has at least one mod installed, you can click on the Install button at the bottom of the mod list. Additionally, the keyboard shortcut `Ctrl + I` will prompt you to select a file to install a mod from.
+
+If you have a `TKCL` that you'd like to install, and you've associated TKCL files with TKMM on your device, you can simply double click it in your files to install it to TKMM. If you don't have an open TKMM window when you open a TKCL file associated with TKMM, a TKMM window will be automatically opened.
 <p>
     <img width="650" src="./images/UseMods_01_01.png">
 </p>
