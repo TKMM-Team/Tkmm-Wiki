@@ -40,7 +40,16 @@ After clicking on this, you will see all of the mod's Option Groups listed by na
 
 ## Managing Profiles
 
-TKMM has a Profiles feature, which lets you manage different configurations of your installed mods. The profiles tab can be accessed with the icon below the Home icon. To create a new profile, press the `+` button near the top of the window. To name the profile, simply type in the text field below the profile selection dropdown. The new profile will be blank by default, so click on the `+` icon next to an installed mod's name on the right side of the screen to add it to the profile. To remove a mod from a profile, click on the mod on the left half the window, and click the trach icon in the bottom left corner. To completely uninstall a mod, click the trash icon next to the mod's name in the right half of the window. A mod can be removed from a profile without being uninstalled, but uninstalling a mod will remove it from all profiles.
+TKMM has a Profiles feature, which lets you manage different configurations of your installed mods. The profiles tab can be accessed with the icon below the Home icon. 
+<p>
+    <img width="550" src="./images/UseMods_05_01.png">
+</p>
+
+To create a new profile, press the `+` button near the top of the window. To name the profile, simply type in the text field below the profile selection dropdown. The new profile will be blank by default, so click on the `+` icon next to an installed mod's name on the right side of the screen to add it to the profile. To remove a mod from a profile, click on the mod on the left half the window, and click the trach icon in the bottom left corner. To completely uninstall a mod, click the trash icon next to the mod's name in the right half of the window. A mod can be removed from a profile without being uninstalled, but uninstalling a mod will remove it from all profiles.
+
+<p>
+    <img width="550" src="./images/UseMods_05_02.png">
+</p>
 
 ## Merging Mods
-In the mods list, on the right side of each mod's name, there is a checkbox. If the box is checked, that means the mod is enabled, and will be included in the merged export. If the box is unchecked, the mod is disabled, and it will not be included in the merged export. You can click and drag mods around to change their priority relative to one another. Mod's higher on the list will be given greater priority. For example, if two enabled mods each edit the same .bfres file, the mod with higher priority will have its changes applied, since bfres files don't support changelogs.
+In the mods list, on the right side of each mod's name, there is a checkbox. If the box is checked, that means the mod is enabled, and will be included in the merged export. If the box is unchecked, the mod is disabled, and it will not be included in the merged export. You can click and drag mods around to change their priority relative to one another. Mod's higher on the list will be given greater priority. For example, if two enabled mods each edit the same .bfres file, the mod with higher priority will have its changes applied, since bfres files don't support changelogs. When you are happy with your enabled mods and their priority, click `Merge` at the bottom of the screen. Your mods will be automatically merged and exported to the Merged Mod Output Folder specified in the settings
