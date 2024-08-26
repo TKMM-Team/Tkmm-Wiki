@@ -22,6 +22,10 @@ Controls whether or not the system console (command prompt) should remain open i
 
 This can be useful for debugging and reporting errors.
 
+### Auto Save Settings
+
+Controls whether or not changes made to TKMM's settings are automatically saved.
+
 ### System Folder
 
 This is the folder where your mods and profiles are stored.
@@ -29,6 +33,9 @@ This is the folder where your mods and profiles are stored.
 > [!NOTE]
 > Unless you have low disk space on your system drive, it is recomended to leave this as the default.
 
+### 7z Path
+
+An optional field containing the path to the 7-zip executable. This speeds up extraction for mods installed via `.7z` files.
 ---
 
 ## Packaging Settings
@@ -58,10 +65,10 @@ Controls is the default name to use when packaging new mods.
 
 ### Merged Mod Output Folder
 
-This is the folder where your merged mod is saved.
+This is the folder where the merged export from TKMM is saved to.
 
 > [!IMPORTANT]
-> This folder can be deleted, do not set it to a folder with any contents.
+> The contents of this folder will be deleted when merging, do not set it to a folder with any contents.
 >
 > If you are unsure, leave this setting as the default.
 
@@ -69,10 +76,6 @@ This is the folder where your merged mod is saved.
 
 Controls the language to prefer when merging mods.
 
-### Use Ryujinx
+### Export Locations
 
-When enabled, merged mods are automatically exported to the Ryujinx emulator's mod folder.
-
-### Use Japanese Citrus Fruit
-
-When enabled, merged mods are automatically exported to the [Japanese Citrus Fruit](https://www.google.com/search?q=japanese+citrus+fruit) emulator's mod folder.
+A menu to configure additional custom export locations. By default, the default export locations for Japanese Citrus Fruit and Ryujinx are listed here and toggled off. You can add additional paths by clicking the `+` button. As with the `Merged Mod Output Folder`, the contents of this folder will be deleted when merging mods, so be sure to set these folders carefully. 

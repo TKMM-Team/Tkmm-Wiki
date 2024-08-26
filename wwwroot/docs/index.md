@@ -41,18 +41,18 @@ When TKMM first starts, you will likely be asked to configure your game path.
 The accent color used in TKMM will vary based on your system's accent color.
 
 > [!NOTE]
-> If you do not already have the game dump on your computer, please google how to do it, as we cannot directly provide the resources needed to do so.
+> If you do not already have the game dump on your computer, please follow [this guide](https://dardel.codeberg.page/nxdumpguide/), following the `Proceed to Dumping RomFS (Modders)` after following the first page of instructions.
 
-Once you have the game dump, use the `...` button to browse to that location.
+Once you have the RomFS dump, use the `...` button to browse to that location.
 
 > If the setting did not turn green, make sure you have a complete game dump and you selected the right folder (it will be the folder containing `ActorSystem`, `AI`, `AISchedule`, etc.).
 
-When everything is done correctly, you should have something similar to this.
+When the dump path has been set correctly, the stripe to the left of the `Game Path` text will turn green, as shown below.
 
 > [!IMPORTANT]
-> The game dump provided must be the same version you are using on your Switch or emulator.
+> TKMM will output mods for the same version as the provided game dump.
 >
-> For example, if you are playing `v1.1.2`, make sure your game dump is `v1.1.2` as well.
+> For example, if you are playing on `v1.1.2`, make sure your game dump is for `v1.1.2` as well.
 
 <p>
     <img width="650" src="./images/Settings_WithGamePath.png">
@@ -60,6 +60,8 @@ When everything is done correctly, you should have something similar to this.
 
 > [!NOTE]
 > Even when the game path is correct, the status bar will still show an `Invalid setting, GamePath is invalid.` error. Click the `Save` button in the bottom left to resolve this and save the settings.
+>
+> Starting with TKMM 1.0.0-beta11, settings will be automatically saved by default, but this can be toggled off.
 
 To learn more about configuring the TKMM settings, read through the [Settings](./settings) page.
 
