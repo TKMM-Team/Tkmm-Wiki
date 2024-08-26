@@ -36,6 +36,7 @@ This is the folder where your mods and profiles are stored.
 ### 7z Path
 
 An optional field containing the path to the 7-zip executable. This speeds up extraction for mods installed via `.7z` files.
+
 ---
 
 ## Packaging Settings
