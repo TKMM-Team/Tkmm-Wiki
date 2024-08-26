@@ -89,18 +89,10 @@ As an alternative to manually importing option groups in TKMM, you can have opti
 
 There are four types of option groups. Here is a description of each of them:
 
-### Single
+**Single**  groups allow the user to pick 1 option from the group.
 
-Option allows the user to optionally pick one of the option group's options.
+**SingleRequired** groups require the user to pick exactly one of the option group's options.
 
-### Single Required
+**Multi** groups allows the user to pick as many or as few of the options as they'd like.
 
-Option requires the user to pick exactly one of the option group's options.
-
-### Multi
-
-Option allows the user to pick any or none of the option group's options.
-
-### Multi Required
-
-Option requires the user to pick exactly one or more of the option group's options.
+**MultiRequired** groups require the user to pick one or more of the options in the group.

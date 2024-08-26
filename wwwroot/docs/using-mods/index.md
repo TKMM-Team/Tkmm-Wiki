@@ -32,7 +32,7 @@ Mods are sorted by most recently submitted or updated. You can use the search ba
 </p>
 
 ## Configuring Options
-Mods packaged using TKMM can have Options to allow users to customize their experience with a specific mod. Option Groups are created by the mod developer when packaging a mod with TKMM, and they can be one of the following types: `Single`, `SingleRequired`, `Multiple`, and `MultipleRequired`. Both `Single` option group types only allow the user to choose a single option from the group. Both `Multiple` option group types allow the user to choose as many options from that group as they'd like. The `Required` option groups must have an option selected, and the groups that are not required do not have to be configured.
+Mods packaged using TKMM can have Options to allow users to customize their experience with a specific mod. Option Groups are created by the mod developer when packaging a mod with TKMM, and they can be one of the following types: `Single`, `SingleRequired`, `Multiple`, and `MultipleRequired`. Both `Single` option group types only allow the user to choose a single option from the group. Both `Multiple` option group types allow the user to choose as many options from that group as they'd like. The `Required` option groups must have an option selected, and the groups that are not required do not have to be configured. For required groups, the first option in the group is selected by default.
 
 To configure options for a given mod, click on the configuration icon to the right of the mod's name in the mod list. Alternatively, click the mod's name in the mod list, then click on the `Configure Options` button at the top of the description section, found underneath the mod's thumbnail.
 <p>
