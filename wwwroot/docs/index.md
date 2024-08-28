@@ -2,67 +2,65 @@
 title: Getting Started
 ---
 
-# TKMM Installation & Setup
+# Getting Started
 
-> [!IMPORTANT]
-> Before starting, make sure you have downloaded and installed the [.NET 8 runtime](../downloads) from the [downloads](../downloads) page.
->
-> If this step is not completed, the application will instantly crash.
+This guide will walk you through installing and setting up TKMM.
 
----
+To learn how to start installing and merging mods, check out the [Using Mods](./using-mods/) guide.
 
 ## Installation
 
-From the [downloads](../downloads) page, locate the correct version for your operating system.
+On the [downloads](../downloads) page, locate and download the <kbd><samp>TKMM Launcher</samp></kbd> and <kbd><samp>.NET Runtime</samp></kbd> for your operating system.
 
-Click one of the options for `TKMM Launcher` to download a `zip` file containing the `tkmm-launcher` executable. When the download has completed, extract and run this executable.
-
-If the correct [.NET runtime](../downloads) is installed, the following window will open.
+When the download has completed, open the **.NET Runtime** installer and follow the prompts to completion.
 
 <p>
-    <img width="650" src="./images/Launcher.png" alt="tkmm launcher window">
+    <img width="450" src="./images/(1.0)-DotnetRuntimeComplete.png" alt="tkmm launcher window">
 </p>
 
-> [!WARNING]
-> If you are installing on the Steam Deck and/or cannot run as the super-user, uncheck `Create Shortcuts` to avoid needing elevated permissions.
+Once the **.NET Runtime** has finished installing, extract the **TKMM Launcher** zip file and run the contained executable.
 
-Click `Install` to begin the installation process.
+The following window will open.
 
-When the installation completes, click `Launch` to open TKMM.
+<p>
+    <img width="650" src="./images/(1.1)-Launcher.png" alt="tkmm launcher window">
+</p>
+
+Click <kbd><samp>Install</samp></kbd> to begin the installation process.
+
+> [!IMPORTANT]
+> The TKMM installer requires a stable internet connection.
+
+When the installation completes, click <kbd><samp>Launch</samp></kbd> to open TKMM.
 
 ## Setup
 
-When TKMM first starts, you will likely be asked to configure your game path. 
+When TKMM first starts, you will most likely be asked to configure your game path.
 
 <p>
-    <img width="650" src="./images/Settings_NoGamePath.png" alt="invalid settings page">
+    <img width="650" src="./images/(1.3)-EmptyGamePath.png" alt="Invalid Empty Game Path">
 </p>
 
-The accent color used in TKMM will vary based on your system's accent color.
+This field contains the path to your Tears of the Kingdom romfs game dump.
 
-> [!NOTE]
-> If you do not already have the game dump on your computer, please follow [this guide](https://dardel.codeberg.page/nxdumpguide/), following the `Proceed to Dumping RomFS (Modders)` after following the first page of instructions.
-
-Once you have the RomFS dump, use the `...` button to browse to that location.
-
-> If the setting did not turn green, make sure you have a complete game dump and you selected the right folder (it will be the folder containing `ActorSystem`, `AI`, `AISchedule`, etc.).
-
-When the dump path has been set correctly, the stripe to the left of the `Game Path` text will turn green, as shown below.
+If you do not already have the game dump on your computer, please follow [this guide](https://dardel.codeberg.page/nxdumpguide/) to legally obtain one.
 
 > [!IMPORTANT]
+> Make sure you include the `1.1.0` update or later. `1.0.0` is not supported by TKMM.
+
+<p>
+    <img width="650" src="./images/(1.4)-InvalidGameVersion.png" alt="Invalid Empty Game Path">
+</p>
+
+Once you have the RomFS dump, use the <kbd><samp>...</samp></kbd> button to browse to that location.
+
+When the game path is set correctly the field will turn green.
+
+<p>
+    <img width="650" src="./images/(1.5)-GoodGamePath.png">
+</p>
+
+> [!NOTE]
 > TKMM will output mods for the same version as the provided game dump.
 >
 > For example, if you are playing on `v1.1.2`, make sure your game dump is for `v1.1.2` as well.
-
-<p>
-    <img width="650" src="./images/Settings_WithGamePath.png">
-</p>
-
-> [!NOTE]
-> Even when the game path is correct, the status bar will still show an `Invalid setting, GamePath is invalid.` error. Click the `Save` button in the bottom left to resolve this and save the settings.
->
-> Starting with TKMM 1.0.0-beta11, settings will be automatically saved by default, but this can be toggled off.
-
-To learn more about configuring the TKMM settings, read through the [Settings](./settings) page.
-
-To get started using mods, check out the [Using Mods](./using-mods) page.
