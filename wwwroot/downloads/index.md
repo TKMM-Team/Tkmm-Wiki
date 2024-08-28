@@ -60,7 +60,7 @@ title: Downloads
 - **Windows 7+** | Fully supported
 - **Linux** | Partially supported
   - **SteamOS** | Experimental
-  - **Switch (Lakka)** | Experimental
+  - **Switch (Lakka)** | Work in Progress
 - **MacOS** | Experimental
 
 ## Source Code

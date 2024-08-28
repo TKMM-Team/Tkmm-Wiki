@@ -12,7 +12,7 @@ To learn how to start installing and merging mods, check out the [Using Mods](./
 
 On the [downloads](../downloads) page, locate and download the <kbd><samp>TKMM Launcher</samp></kbd> and <kbd><samp>.NET Runtime</samp></kbd> for your operating system.
 
-When the download has completed, open the **.NET Runtime** installer and follow the prompts to completion.
+When the downloads have completed, open the **.NET Runtime** installer and follow the prompts to completion.
 
 <p>
     <img width="450" src="./images/(1.0)-DotnetRuntimeComplete.png" alt="tkmm launcher window">
