@@ -49,7 +49,7 @@ An optional field containing the path to the 7-zip executable. This speeds up ex
 
 ### Default Author
 
-Controls is the default name to use when packaging new mods.
+Controls the default name to use when packaging new mods.
 
 > [!IMPORTANT]
 > By default this is your computers username. Make sure this does not contain sensitive information that may be packaged and deployed in mods.
