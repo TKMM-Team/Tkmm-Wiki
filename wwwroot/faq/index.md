@@ -7,6 +7,8 @@ title: FAQ
 
 This page contains answers to frequently asked questions.
 
+---
+
 ## Why do I need a full game dump?
 
 To save space and be more copyright-friendly, TKMM stores mods without any of the game's copyrighted content.
@@ -17,6 +19,8 @@ While this makes distributing mods easier, it also means that TKMM needs access 
 
 Distributing any part of the game files is illegal, thus, TKMM requires you to provide your own legally obtained copy of the game.
 
+---
+
 ## Why can't I use version 1.0.0?
 
 The first version of Tears of the Kingdom is largely different from every version.
@@ -25,7 +29,9 @@ With the large number of changes, it becomes difficult to distinguish changes ma
 
 This is why version 1.0.0 of Tears of the Kingdom is not supported by TKMM.
 
-## What can TKMM merge?
+---
+
+## What files can TKMM merge?
 
 TKMM can merge archive files (`.sarc`, `.pack`), parameter files (`.bgyml`), the resource database (RSDB), the Mals system and the resource size table.
 
