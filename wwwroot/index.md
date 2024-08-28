@@ -10,7 +10,7 @@ title: Home
 
 <p align="center" style="text-align: center;">
   <a href="https://github.com/TKMM-Team/Tkmm/releases">
-    <img src="https://img.shields.io/github/v/tag/TKMM-Team/Tkmm?style=for-the-badge&logoColor=C71B42&color=C71B42&labelColor=2A2C33&logo=git&label=Version" alt="Releases' YouTube"/>
+    <img src="https://img.shields.io/github/v/tag/TKMM-Team/Tkmm?style=for-the-badge&logoColor=C71B42&color=C71B42&labelColor=2A2C33&logo=git&label=Version" alt="Releases'"/>
   </a> &nbsp;
   <a href="https://discord.com/invite/3tNUBWQRXv">
     <img src="https://img.shields.io/discord/1179611100183011429?style=for-the-badge&logoColor=3b83c8&color=3b83c8&labelColor=2A2C33&logo=discord&label=discord" alt="Discord"/>
@@ -26,7 +26,7 @@ title: Home
 
 ---
 
-TKMM is a mod manager and merger for tears of the Kingdom developed by [TKMM Team](./about).
+TKMM is a mod manager and merger for Tears of the Kingdom developed by [TKMM-Team](./about#the-team).
 
 If you would like to show your support for the project, please leave a star on the [GitHub repository](https://github.com/TKMM-Team/Tkmm).
 
