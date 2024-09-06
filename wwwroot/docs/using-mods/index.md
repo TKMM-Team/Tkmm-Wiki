@@ -2,60 +2,99 @@
 title: Using Mods
 ---
 
-# Mods
+# Using Mods
 
-This page will guide you on how to install mods, configure options for mods, and manage mod profiles.
+This guide will go through installing mods, configuring mod options, and finally merging and exporting the merged mods.
 
 ## Installing Mods
-You can install mods from a file archive, a folder, or from TKMM's built-in GameBanana tab.
 
-### Installing Mods From An Archive
-TKMM supports installing mods from several archive types, including `rar`, `zip`, `7z`, and a custom format, `TKCL`. The first three are generic archive types that you may already be familiar with from using mods. `TKCL` files are produced by developers using TKMM, and are the best option when available, since they were specifically designed for use in TKMM. To install a mod from a file, you can drag and drop the file onto the homepage of TKMM, or locate it in your computer's files by choosing `Install File` in the `Mod` dropdown at the top of the window. If your active profile already has at least one mod installed, you can click on the Install button at the bottom of the mod list. Additionally, the keyboard shortcut `Ctrl + I` will prompt you to select a file to install a mod from.
+To install a mod file, use <kbd><samp>Mod</samp></kbd> &gt; <kbd><samp>Install File</samp></kbd> or the <kbd><samp>Install</samp></kbd> button below the mod list.
 
-If you have a `TKCL` that you'd like to install, and you've associated TKCL files with TKMM on your device, you can simply double click it in your files to install it to TKMM. If you don't have an open TKMM window when you open a TKCL file associated with TKMM, a TKMM window will be automatically opened. If you want to associate `.tkcl` files with TKMM and installed TKMM using the launcher, the path to the executable is `%localappdata%\tkmm\bin\tkmm.exe` on Windows.
-<p>
-    <img width="650" src="./images/UseMods_01_01.png">
-</p>
+The supported files formats are `.tkcl`, `.zip`, `.rar` and `.7z`.
 
+> [!TIP]
+> If you are installing `.7z` files, update your [Application Settings](/404)' [7z Path](/404) to make installation faster.
 
-### Installing Mods From A Folder
-TKMM supports installing a mod from a folder, provided it has the correct structure. The folder must only contain a romfs and/or exefs folder, and any files added using the packaging tab. To install a mod from a folder, you can drag and drop the folder onto the homepage of TKMM, or locate it in your computer's file system by choosing `Install Folder` in the `Mod` dropdown at the top of the window. Additionally, the keyboard shortcut `Ctrl + Shift + I` will prompt you to select a folder to install a mod from. This is the recommended method for mod developers who want to be able to quickly test their mod without having to package it.
+<br>
 
-### Installing Mods From TKMM's GameBanana Tab
-TKMM is capable of browsing through GameBanana's Tears of the Kingdom page. To access it, click on the network icon in the left sidebar of TKMM. You will be presented with something resembling the below screen:
-<p>
-    <img width="650" src="./images/UseMods_03_01.png">
-</p>
-Mods are sorted by most recently submitted or updated. You can use the search bar at the top of the window to filter for mods by their title. Additionally, you can click on the Suggested Mods to see a curated list of mods by the TKMM development team. To install a mod, click on its name. You will be shown a list of the files submitted on that mod's page. Choose which one you'd like to install, then click "Yes", and TKMM will automatically package it and install it for you.
-<p>
-    <img width="650" src="./images/UseMods_03_02.png">
-</p>
+### Installing a Mod Folder
 
-## Configuring Options
-Mods packaged using TKMM can have Options to allow users to customize their experience with a specific mod. Option Groups are created by the mod developer when packaging a mod with TKMM, and they can be one of the following types: `Single`, `SingleRequired`, `Multiple`, and `MultipleRequired`. Both `Single` option group types only allow the user to choose a single option from the group. Both `Multiple` option group types allow the user to choose as many options from that group as they'd like. The `Required` option groups must have an option selected, and the groups that are not required do not have to be configured. For required groups, the first option in the group is selected by default.
+To install a mod folder, use <kbd><samp>Mod</samp></kbd> &gt; <kbd><samp>Install Folder</samp></kbd>.
 
-To configure options for a given mod, click on the configuration icon to the right of the mod's name in the mod list. Alternatively, click the mod's name in the mod list, then click on the `Configure Options` button at the top of the description section, found underneath the mod's thumbnail.
-<p>
-    <img width="650" src="./images/UseMods_04_01.png">
-</p>
+Mod folders must contain a `romfs`, `exefs` or `cheats` folder.
 
-After clicking on this, you will see all of the mod's Option Groups listed by name. Next to the name of the Option Group, the Option Group Type is listed. Simply expand the option group by clicking on it, and click to select options. You can click a selected option to deselect that option. When you are happy with your options, click on the back arrow in the top left of the window to return to the mod's main page.
-<p>
-    <img width="650" src="./images/UseMods_04_02.png">
-</p>
+<br>
 
-## Managing Profiles
+### Installing a Mod from GameBanana
 
-TKMM has a Profiles feature, which lets you manage different configurations of your installed mods. The profiles tab can be accessed with the icon below the Home icon. 
-<p>
-    <img width="650" src="./images/UseMods_05_01.png">
-</p>
+To install a mod from [GameBanana](https://gamebanana.com/totk), use <kbd><samp>Mod</samp></kbd> &gt; <kbd><samp>Install from Argument</samp></kbd> and provide the mod ID or URL.
 
-To create a new profile, press the `+` button near the top of the window. To name the profile, simply type in the text field below the profile selection dropdown. The new profile will be blank by default, so click on the `+` icon next to an installed mod's name on the right side of the screen to add it to the profile. To remove a mod from a profile, click on the mod on the left half the window, and click the trach icon in the bottom left corner. To completely uninstall a mod, click the trash icon next to the mod's name in the right half of the window. A mod can be removed from a profile without being uninstalled, but uninstalling a mod will remove it from all profiles.
+Alternatively, you can use the built-in [GameBanana browser](#installing-a-mod-from-the-gamebanana-browser) to browse and install mods.
+
+<br>
+
+### Installing a Mod from the GameBanana Browser
+
+To open the built-in [GameBanana](https://gamebanana.com/totk) browser, click the <kbd><samp>GameBanana Mod Browser</samp></kbd> <sup>[(1)](./images/GameBananaPage.png)</sup> tab in the navigation bar.
 
 <p>
-    <img width="650" src="./images/UseMods_05_02.png">
+    <img width="650" src="./images/GameBananaPage.png" alt="GameBanana Mod Browser Page">
 </p>
+
+To install a mod from the built-in [GameBanana](https://gamebanana.com/totk) browser, click the mod title <sup>[(2)](./images/GameBananaPage.png)</sup> and select a file in the dialog popup <sup>[(3)](./images/GameBananaPageInstallMod.png)</sup>.
+
+Once you have selected the file you wish to install, click <kbd><samp>Install</samp></kbd> <sup>[(4)](./images/GameBananaPageInstallMod.png)</sup> and wait for the installation to complete.
+
+> [!NOTE]
+> When possible, install the file that matches your game version.
+
+<p>
+    <img width="650" src="./images/GameBananaPageInstallMod.png" alt="GameBanana Mod Browser Page Install Mod Popup">
+</p>
+
+<br>
+
+## Configuring Mod Options
+
+To configure options when installing a mod, click the prompt <sup>[(1)](./images/ConfigureOptionsPrompt.png)</sup> in the bottom right or the <kbd><samp>Configure Options</samp></kbd> <sup>[(2)](./images/ConfigureOptionsPrompt.png)</sup> button below the thumbnail.
+
+<p>
+    <img width="650" src="./images/ConfigureOptionsPrompt.png" alt="Configure Options Prompt">
+</p>
+
+> [!NOTE]
+> If the mod has no options, there will **not** be a prompt and the <kbd><samp>Configure Options</samp></kbd> button will not be visible.
+
+Options are sorted into groups. Each group has a type to define how you pick the options.
+
+* **Single** allows you to select `1` or `0` options.
+* **Single Required** means you must select `1` option (the first option is always selected by default).
+* **Multi** allows you to select any number of options (including `0`).
+* **Multi Required** allows you to select any number of options but `1` must remain selected.
+
+Click anywhere on the option group <sup>[(3)](./images/ConfigureOptions.png)</sup> to expand the availible options <sup>[(4)](./images/ConfigureOptions.png)</sup>.
+
+<p>
+    <img width="650" src="./images/ConfigureOptions.png" alt="Configure Options">
+</p>
+
+Once the options are configured to your liking, press the <kbd><samp>Back Arrow</samp></kbd> <sup>[(5)](./images/ConfigureOptions.png)</sup> button in the top left to hide the options.
+
+<br>
+
+## Merging Mods
+
+...
+
+### Ordering Mods
+
+...
+
+### Exporting Mods
+
+...
+
+<!-- EoF -->
 
 ## Merging Mods
 In the mods list, on the right side of each mod's name, there is a checkbox. If the box is checked, that means the mod is enabled, and will be included in the merged export. If the box is unchecked, the mod is disabled, and it will not be included in the merged export. You can click and drag mods around to change their priority relative to one another. Mod's higher on the list will be given greater priority. For example, if two enabled mods each edit the same .bfres file, the mod with higher priority will have its changes applied, since bfres files don't support changelogs. When you are happy with your enabled mods and their priority, click `Merge` at the bottom of the screen. Your mods will be automatically merged and exported to the Merged Mod Output Folder specified in the settings.
