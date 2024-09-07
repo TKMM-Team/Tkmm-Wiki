@@ -43,7 +43,7 @@ When TKMM first starts, you will most likely be asked to configure your game pat
 
 This field contains the path to your Tears of the Kingdom romfs game dump.
 
-If you do not already have the game dump on your computer, please follow [this guide](https://dardel.codeberg.page/nxdumpguide/) to legally obtain one.
+If you do not already have the game dump on your computer, please follow [this guide](https://zeldamods.org/wiki/Help:Dumping_games#Switch) to legally obtain one.
 
 > [!IMPORTANT]
 > When dumping your copy of the game, make sure you include the `1.1.0` update or later. `1.0.0` is [not supported by TKMM](/faq/#why-cant-i-use-version-100).

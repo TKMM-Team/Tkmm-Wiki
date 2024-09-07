@@ -82,19 +82,17 @@ Once the options are configured to your liking, press the <kbd><samp>Back Arrow<
 
 <br>
 
-## Merging Mods
+## Ordering Mods
 
-...
+The mod list can be rearranged, this allows you to choose the priority order of each mods. Sometimes, some files and edits will be priority based, therefore some conflicting elements from several mods may overwrite each other.
 
-### Ordering Mods
+The mod at the top of the list will have the highest priority, and the mod at the bottom of the list will have the lowest priority.
 
-...
+There are 2 ways of rearranging the order. You can either select a mod and use the arrow buttons under the mod list, or you can drag and drop a mod in the list with your mouse.
 
-### Exporting Mods
+When choosing the order of your mods, you will usually want to place the biggest mods with the highest amount of changes on the lowest priority (this may not apply to all cases, some combinations may need to be tested individually).
 
-...
-
-<!-- EoF -->
+<br>
 
 ## Merging Mods
 In the mods list, on the right side of each mod's name, there is a checkbox. If the box is checked, that means the mod is enabled, and will be included in the merged export. If the box is unchecked, the mod is disabled, and it will not be included in the merged export. You can click and drag mods around to change their priority relative to one another. Mod's higher on the list will be given greater priority. For example, if two enabled mods each edit the same .bfres file, the mod with higher priority will have its changes applied, since bfres files don't support changelogs. When you are happy with your enabled mods and their priority, click `Merge` at the bottom of the screen. Your mods will be automatically merged and exported to the Merged Mod Output Folder specified in the settings.
@@ -117,7 +115,7 @@ For Switch users, `Export to an SD Card` is the best way to get your merged mods
     <img width="650" src="./images/UseMods_07_01.png">
 </p>
 
-To use this feature, first make sure you have your SD card plugged in.
+To use this feature, first make sure you have your SD card plugged in. It is recommended to use the USB Tool available in Hekate to avoid  constantly needing to remove the SD card from its slot.
 
 Then navigate to `File` > `Export to SD Card`. This will open up a dialog where you can choose your SD Card.
 
@@ -125,7 +123,7 @@ Then navigate to `File` > `Export to SD Card`. This will open up a dialog where 
     <img width="650" src="./images/UseMods_07_02.png">
 </p>
 
-After choosing the correct SD card from the dropdown, simply click `Export` and wait for the merge to complete.
+After choosing the correct SD card from the dropdown, simply click `Export` and wait for the operation to complete.
 
 > [!WARNING]
 > Any existing `romfs` or `exefs` folders will be permanently deleted from `atmosphere/contents/0100F2C0115B6000`.

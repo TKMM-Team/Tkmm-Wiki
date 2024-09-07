@@ -31,7 +31,7 @@ Controls whether or not changes made to TKMM's settings are automatically saved.
 This is the folder where your mods and profiles are stored.
 
 > [!NOTE]
-> Unless you have low disk space on your system drive, it is recomended to leave this as the default.
+> Unless you have low disk space on your system drive, it is recommended to leave this as the default.
 
 ### 7z Path
 
@@ -52,7 +52,7 @@ An optional field containing the path to the 7-zip executable. This speeds up ex
 Controls is the default name to use when packaging new mods.
 
 > [!IMPORTANT]
-> By default this is your computers username. Make sure this does not contain sensetive information that may be packaged and deployed in mods.
+> By default this is your computers username. Make sure this does not contain sensitive information that may be packaged and deployed in mods.
 
 ---
 
@@ -79,4 +79,8 @@ Controls the language to prefer when merging mods.
 
 ### Export Locations
 
-A menu to configure additional custom export locations. By default, the default export locations for Japanese Citrus Fruit and Ryujinx are listed here and toggled off. You can add additional paths by clicking the `+` button. As with the `Merged Mod Output Folder`, the contents of this folder will be deleted when merging mods, so be sure to set these folders carefully. 
+<p>
+    <img width="450" src="./images/Settings_General_Merging_Custom_Exports.png">
+</p>
+
+A menu to configure custom export locations. By default, the mod folders for Japanese Citrus Fruit and Ryujinx are listed here and toggled off. You can add additional paths by clicking the `+` button. As with the `Merged Mod Output Folder`, the contents of this folder will be deleted when merging mods, so be sure to set these folders carefully. If you play on emulator, this needs to be set to your emulator's TotK mod folder, followed by `\TKMM`.
