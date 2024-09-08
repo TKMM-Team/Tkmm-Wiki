@@ -53,6 +53,16 @@ title: Downloads
 >  <a class="download-btn" id="download-src" href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.6-macos-x64-installer">.NET 8 Runtime</a>
 > </div>
 
+# [Steam Deck](#tab/steamdeck)
+
+It is required to have flatpak installed prior to running the following commands in a terminal.
+
+```bash
+flatpak remote-add --user TkmmRepo https://repo.tkmm.org/.flatpakrepo
+flatpak install -y TkmmRepo io.github.tkmm_team.tkmm
+```
+After the installation is complete, you will find the shortcut to run the application under the `Utilities` category.
+
 ---
 
 ## Supported Platforms
