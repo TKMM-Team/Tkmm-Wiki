@@ -33,6 +33,18 @@ title: Downloads
 >   <a class="download-btn" id="download-linux" href="https://github.com/TKMM-Team/Tkmm/releases/latest/download/TKMM-Launcher-linux-arm64.zip">TKMM Launcher (arm64)</a>
 >   <a class="download-btn" id="download-src" href="https://learn.microsoft.com/dotnet/core/install/linux-package-managers?WT.mc_id=dotnet-35129-website">.NET Runtime Install Guide</a>
 > </div>
+> <br>
+
+> [!NOTE]
+> For Steam Decks, TKMM is available as a Flatpak. This can also be tested on other devices for which the pre-compiled build may not work (though only x64 is available).
+
+The Flatpak installation is done by running the following commands in a terminal:
+
+```bash
+flatpak remote-add --user TkmmRepo https://repo.tkmm.org/.flatpakrepo
+flatpak install -y TkmmRepo io.github.tkmm_team.tkmm
+```
+After the installation is complete, you will find the shortcut to run the application under the `Utilities` category.
 
 # [MacOS (Experimental)](#tab/macos)
 
@@ -52,16 +64,6 @@ title: Downloads
 >  <a class="download-btn" id="download-macos" href="https://github.com/TKMM-Team/Tkmm/releases/latest/download/TKMM-Launcher-osx-x64.zip">TKMM Launcher (x64)</a>
 >  <a class="download-btn" id="download-src" href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.6-macos-x64-installer">.NET 8 Runtime</a>
 > </div>
-
-# [Steam Deck](#tab/steamdeck)
-
-It is required to have flatpak installed prior to running the following commands in a terminal.
-
-```bash
-flatpak remote-add --user TkmmRepo https://repo.tkmm.org/.flatpakrepo
-flatpak install -y TkmmRepo io.github.tkmm_team.tkmm
-```
-After the installation is complete, you will find the shortcut to run the application under the `Utilities` category.
 
 ---
 
