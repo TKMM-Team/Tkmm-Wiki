@@ -36,7 +36,7 @@ title: Downloads
 > <br>
 
 > [!NOTE]
-> For Steam Decks, TKMM is available as a Flatpak. This can also be tested on other devices for which the pre-compiled build may not work (though only x64 is available).
+> For Steam Decks, TKMM is available as a Flatpak. This can also be tested on other devices or distros for which the pre-compiled build may not work (though only x64 is available).
 
 The Flatpak installation is done by running the following commands in a terminal:
 
