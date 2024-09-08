@@ -37,7 +37,7 @@ title: Downloads
 # [MacOS (Experimental)](#tab/macos)
 
 > [!WARNING]
-> MacOS builds are not tested by TKMM-Team. Expect bugs, crashes and limited usability.
+> MacOS is not well supported, and is experimental. Bugs and crashes are to be expected.
 
 > Downloads for MacOS Silicon
 > 
