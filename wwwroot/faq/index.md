@@ -31,6 +31,14 @@ This is why version 1.0.0 of Tears of the Kingdom is not supported by TKMM.
 
 ---
 
+## Can mods be made compatible for any version?
+
+TKMM will apply the edits from each RomFS mod to the exact version of your game dump, which needs to be at least version 1.1.0 or later.
+
+This however will not be the case for ExeFS mods and cheats, those need to be directly compatible with your target version.
+
+---
+
 ## What files can TKMM merge?
 
 TKMM can merge archive files (`.sarc`, `.pack`), parameter files (`.bgyml`), the resource database (RSDB), the Mals system and the resource size table.
@@ -38,3 +46,13 @@ TKMM can merge archive files (`.sarc`, `.pack`), parameter files (`.bgyml`), the
 Support for texture archives (`.bntx`) and audio archives (`.bars`) is planned for future releases.
 
 TKMM will never support AI files (`.ainb`), animation sequence files (`.asb`), timeline files (`.bfevtm`) or event flow files (`.bfevfl`).
+
+---
+
+## What to do if TKMM outputs an error when trying to merge?
+
+Most common errors are related to either a broken mod, or a corrupted game dump. You can verify your dump by navigating the menu and using `Tools` > `Check Dump Integrity`.
+
+If any corrupted or missing files are detected, refer to the documentation and follow the instructions again on how to extract a RomFS dump.
+
+If your error is different, you can open an issue on the [GitHub repository](https://github.com/TKMM-Team/Tkmm/issues), or ask for support in the [Discord server](https://discord.gg/BbVXenRFVc).
