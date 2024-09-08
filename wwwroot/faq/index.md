@@ -23,11 +23,9 @@ Distributing any part of the game files is illegal, thus, TKMM requires you to p
 
 ## Why can't I use version 1.0.0?
 
-The first version of Tears of the Kingdom is largely different from every version.
+The first version of TotK is different than later versions, and some of the changes between it and later versions affect TKMM.
 
-With the large number of changes, it becomes difficult to distinguish changes made by modders and changes from the update.
-
-This is why version 1.0.0 of Tears of the Kingdom is not supported by TKMM.
+With the large number of differences, it becomes difficult to maintain the creation of changelogs just for 1.0.0, which manage how different mods merge and interact with another.
 
 ---
 
