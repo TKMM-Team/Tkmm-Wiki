@@ -1,8 +1,8 @@
 - name: Getting Started
   href: index.md
-- name: Settings
-  href: settings/
 - name: Using Mods
   href: using-mods/
 - name: Creating Mods
   href: creating-mods/
+- name: Settings
+  href: settings/

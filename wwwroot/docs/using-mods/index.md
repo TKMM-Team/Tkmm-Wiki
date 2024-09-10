@@ -43,27 +43,27 @@ To open the built-in [GameBanana](https://gamebanana.com/totk) browser, click th
 
 To install a mod from the built-in [GameBanana](https://gamebanana.com/totk) browser, click the mod title <sup>[(2)](./images/GameBananaPage.png)</sup> and select a file in the dialog popup <sup>[(3)](./images/GameBananaPageInstallMod.png)</sup>.
 
+<p>
+    <img width="650" src="./images/GameBananaPageInstallMod.png" alt="GameBanana Mod Browser Page Install Mod Popup">
+</p>
+
 Once you have selected the file you wish to install, click <kbd><samp>Install</samp></kbd> <sup>[(4)](./images/GameBananaPageInstallMod.png)</sup> and wait for the installation to complete.
 
 > [!NOTE]
 > When possible, install the file that matches your game version.
 
-<p>
-    <img width="650" src="./images/GameBananaPageInstallMod.png" alt="GameBanana Mod Browser Page Install Mod Popup">
-</p>
-
 <br>
 
 ## Configuring Mod Options
 
-To configure options when installing a mod, click the prompt <sup>[(1)](./images/ConfigureOptionsPrompt.png)</sup> in the bottom right or the <kbd><samp>Configure Options</samp></kbd> <sup>[(2)](./images/ConfigureOptionsPrompt.png)</sup> button below the thumbnail.
+To configure options when installing a mod, click the prompt <sup>[(1)](./images/ConfigureOptionsPrompt.png)</sup> in the bottom right or the <kbd><samp>Options</samp></kbd> <sup>[(2)](./images/ConfigureOptionsPrompt.png)</sup> button.
 
 <p>
     <img width="650" src="./images/ConfigureOptionsPrompt.png" alt="Configure Options Prompt">
 </p>
 
 > [!NOTE]
-> If the mod has no options, there will **not** be a prompt and the <kbd><samp>Configure Options</samp></kbd> button will not be visible.
+> If the mod has no options, there will **not** be a prompt and the <kbd><samp>Options</samp></kbd> button will not be visible.
 
 Options are sorted into groups. Each group has a type to define how you pick the options.
 
@@ -84,48 +84,86 @@ Once the options are configured to your liking, press the <kbd><samp>Back Arrow<
 
 ## Ordering Mods
 
-The mod list can be rearranged, this allows you to choose the priority order of each mods. Sometimes, some files and edits will be priority based, therefore some conflicting elements from several mods may overwrite each other.
+Mods often contain files that TKMM cannot merge. To resolve this, TKMM retains the order of mods to overwrite mods with a lower priority.
 
-The mod at the top of the list will have the highest priority, and the mod at the bottom of the list will have the lowest priority.
+The mod at the top of the list will have the highest priority <sup>[(1)](./images/ModListOrder.png)</sup>, and the mod at the bottom of the list will have the lowest priority <sup>[(2)](./images/ModListOrder.png)</sup>.
 
-There are 2 ways of rearranging the order. You can either select a mod and use the arrow buttons under the mod list, or you can drag and drop a mod in the list with your mouse.
+<p>
+    <img width="650" src="./images/ModListOrder.png" alt="Mod List Order">
+</p>
 
-When choosing the order of your mods, you will usually want to place the biggest mods with the highest amount of changes on the lowest priority (this may not apply to all cases, some combinations may need to be tested individually).
+To change the order of mods, select one and use the up <sup>[(3)](./images/ModListOrder.png)</sup> and down <sup>[(4)](./images/ModListOrder.png)</sup> arrows to move the mod.
+
+You can also move the mods by selecting and dragging them with your cursor.
+
+<p>
+    <video width="650" controls>
+        <source src="./images/DragDropSnippet.mp4" type="video/mp4">
+    </video>
+</p>
+
+The order of your mods is highly subjective. Larger mods are typically placed with lower priority, but you may have to tweak it to get everything working the way you want.
+
+> [!TIP]
+> If you are having issues with a certain mod, consult the mod author for guidance on placing it your mod list.
 
 <br>
 
 ## Merging Mods
-In the mods list, on the right side of each mod's name, there is a checkbox. If the box is checked, that means the mod is enabled, and will be included in the merged export. If the box is unchecked, the mod is disabled, and it will not be included in the merged export. You can click and drag mods around to change their priority relative to one another. Mod's higher on the list will be given greater priority. For example, if two enabled mods each edit the same .bfres file, the mod with higher priority will have its changes applied, since bfres files don't support changelogs. When you are happy with your enabled mods and their priority, click `Merge` at the bottom of the screen. Your mods will be automatically merged and exported to the Merged Mod Output Folder specified in the settings.
+
+To merge your mods, press the <kbd><samp>Merge</samp></kbd> <sup>[(1)](./images/MergeMods.png)</sup> button or use the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>M</kbd>.
+
+If you wish to disable a mod, uncheck the checkbox on the mod. Press merge to apply your changes.
 
 <p>
-    <img width="650" src="./images/UseMods_06_01.png">
+    <img width="650" src="./images/MergeMods.png" alt="Merge Mods">
 </p>
 
- Once your mods are successfully exported, you'll see this banner appear in the bottom right of TKMM as shown below, no matter which tab you are on. To ensure you don't miss it, it will not go away until you click on it. If you instead see a banner with a reddish pink line at the top, then your mods have failed to merge. Please reach out on the [TKMM Discord Server](https://discord.gg/BbVXenRFVc) for support.
+Merging may take some time, so be patient. When merging has completed a green banner <sup>[(1)](./images/MergeCompleted.png)</sup> will appear to notify you of completion.
 
 <p>
-    <img width="650" src="./images/UseMods_06_02.png">
+    <img width="650" src="./images/MergeCompleted.png" alt="Merge Completed">
 </p>
 
-## Export to Switch (SD Card)
+- If you are playing on a **Switch emulator**, refer to the [emulator setup](#emulator-setup) section.
+- If you are playing on a **physical Switch**, refer to the [Switch setup](#switch-setup) section.
 
-For Switch users, `Export to an SD Card` is the best way to get your merged mods to your switch.
+<br>
+
+### Emulator Setup
+
+To setup exporting for one or more Switch emulators, use <kbd><samp>Mod</samp></kbd> > <kbd><samp>Edit Export Locations</samp></kbd> or <kbd>Ctrl</kbd> + <kbd>L</kbd> to edit the export locations.
+
+- If you are using **yuzu**, enable the **first** entry listed <sup>[(1)](./images/ExportLocations.png)</sup>.
+- If you are using **Ryujinx**, enable the **second** entry listed <sup>[(2)](./images/ExportLocations.png)</sup>.
 
 <p>
-    <img width="650" src="./images/UseMods_07_01.png">
+    <img width="650" src="./images/ExportLocations.png" alt="Export Locations">
 </p>
 
-To use this feature, first make sure you have your SD card plugged in. It is recommended to use the USB Tool available in Hekate to avoid  constantly needing to remove the SD card from its slot.
+If you are using another emulator, click the <kbd><samp>+</samp></kbd> <sup>[(3)](./images/ExportLocations.png)</sup> button and paste the path to a TKMM mod folder in your emulator's mod folder.
 
-Then navigate to `File` > `Export to SD Card`. This will open up a dialog where you can choose your SD Card.
+Click <kbd><samp>Close</samp></kbd> <sup>[(4)](./images/ExportLocations.png)</sup> to save and close.
+
+> [!TIP]
+> You do not need to merge again after editing your export locations.
+
+<br>
+
+### Switch Setup
+
+Before starting, insert your SD card into your computer or use the [Hekate USB Tools](https://switchway.net/transfer-files-via-usb/) (<kbd><samp>Tools</samp></kbd> > <kbd><samp>USB Tools</samp></kbd> > <kbd><samp>SD Card</samp></kbd> in Hekate) to transfer over USB.
+
+Navigate to <kbd><samp>Tools</samp></kbd> > <kbd><samp>Export to SD Card</samp></kbd> or use <kbd>Ctrl</kbd> + <kbd>E</kbd> to open the export dialog.
+
+From there, select the SD card from the dropdown <sup>[(1)](./images/ExportForSwitch.png)</sup>.
 
 <p>
-    <img width="650" src="./images/UseMods_07_02.png">
+    <img width="650" src="./images/ExportForSwitch.png" alt="Export for Switch">
 </p>
 
-After choosing the correct SD card from the dropdown, simply click `Export` and wait for the operation to complete.
+Finally, press <kbd><samp>Export</samp></kbd> <sup>[(2)](./images/ExportForSwitch.png)</sup> and wait for the export to complete.
 
-> [!WARNING]
-> Any existing `romfs` or `exefs` folders will be permanently deleted from `atmosphere/contents/0100F2C0115B6000`.
->
-> Make sure there is nothing you wish to keep in those folders.
+> [!CAUTION]
+> Mods previously installed in atmosphere will be **permanently deleted**.<br>
+> Make sure `atmosphere/contents/0100F2C0115B6000` is empty before proceeding.
