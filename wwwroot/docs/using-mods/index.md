@@ -13,7 +13,7 @@ To install a mod file, use <kbd><samp>Mod</samp></kbd> &gt; <kbd><samp>Install F
 The supported files formats are `.tkcl`, `.zip`, `.rar` and `.7z`.
 
 > [!TIP]
-> If you are installing `.7z` files, update your [Application Settings](/404)' [7z Path](/404) to make installation faster.
+> If you are installing `.7z` files, update your [Application Settings](../settings/#7z-path)' [7z Path](../settings/#application-settings) to make installation faster.
 
 <br>
 
