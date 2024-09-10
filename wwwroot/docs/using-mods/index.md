@@ -72,7 +72,7 @@ Options are sorted into groups. Each group has a type to define how you pick the
 * **Multi** allows you to select any number of options (including `0`).
 * **Multi Required** allows you to select any number of options but `1` must remain selected.
 
-Click anywhere on the option group <sup>[(3)](./images/ConfigureOptions.png)</sup> to expand the availible options <sup>[(4)](./images/ConfigureOptions.png)</sup>.
+Click anywhere on the option group <sup>[(3)](./images/ConfigureOptions.png)</sup> to expand the available options <sup>[(4)](./images/ConfigureOptions.png)</sup>.
 
 <p>
     <img width="650" src="./images/ConfigureOptions.png" alt="Configure Options">
