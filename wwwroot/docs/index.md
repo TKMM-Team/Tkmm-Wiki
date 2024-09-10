@@ -4,9 +4,9 @@ title: Getting Started
 
 # Getting Started
 
-This guide will walk you through installing and setting up TKMM.
+This guide will walk through installing and setting up TKMM.
 
-To learn how to start installing and merging mods, check out the [Using Mods](./using-mods/) guide.
+To learn how to install and merge mods, check out the [Using Mods](./using-mods/) guide.
 
 ## Installation
 
@@ -43,16 +43,16 @@ When TKMM first starts, you will most likely be asked to configure your game pat
 
 This field contains the path to your Tears of the Kingdom romfs game dump.
 
-If you do not already have the game dump on your computer, please follow [this guide](https://dardel.codeberg.page/nxdumpguide/) to legally obtain one.
+If you do not already have the game dump on your computer, please follow [this guide](https://zeldamods.org/wiki/Help:Dumping_games#Switch) to legally obtain one.
 
 > [!IMPORTANT]
-> Make sure you include the `1.1.0` update or later. `1.0.0` is not supported by TKMM.
+> When dumping your copy of the game, make sure you include the `1.1.0` update or later. `1.0.0` is [not supported by TKMM](/faq/#why-cant-i-use-version-100).
 
 <p>
     <img width="650" src="./images/(1.4)-InvalidGameVersion.png" alt="Invalid Empty Game Path">
 </p>
 
-Once you have the RomFS dump, use the <kbd><samp>...</samp></kbd> button to browse to that location.
+Once you have dumped your copy of the game's romfs, use the <kbd><samp>...</samp></kbd> button to browse to its location.
 
 When the game path is set correctly the field will turn green.
 

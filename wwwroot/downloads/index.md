@@ -34,6 +34,16 @@ title: Downloads
 >   <a class="download-btn" id="download-src" href="https://learn.microsoft.com/dotnet/core/install/linux-package-managers?WT.mc_id=dotnet-35129-website">.NET Runtime Install Guide</a>
 > </div>
 
+> Flatpak for Linux x64
+> 
+> ```cs
+> flatpak remote-add --user TkmmRepo "https://repo.tkmm.org/.flatpakrepo"
+> flatpak install -y TkmmRepo io.github.tkmm_team.tkmm
+> ```
+
+> [!IMPORTANT]
+> The Flatpak version is required for the Steam Deck and other SteamOS installations.
+
 # [MacOS (Experimental)](#tab/macos)
 
 > [!WARNING]
