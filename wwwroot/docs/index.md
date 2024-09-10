@@ -52,7 +52,7 @@ If you do not already have the game dump on your computer, please follow [this g
     <img width="650" src="./images/(1.4)-InvalidGameVersion.png" alt="Invalid Empty Game Path">
 </p>
 
-Once you have dumped your copy of the game to romfs, use the <kbd><samp>...</samp></kbd> button to browse to it's location.
+Once you have dumped your copy of the game's romfs, use the <kbd><samp>...</samp></kbd> button to browse to its location.
 
 When the game path is set correctly the field will turn green.
 
