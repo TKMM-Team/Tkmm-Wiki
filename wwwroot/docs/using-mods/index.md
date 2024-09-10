@@ -132,7 +132,7 @@ Merging may take some time, so be patient. When merging has completed a green ba
 
 ### Emulator Setup
 
-To setup exporting for one or more Switch emulators, use <kbd><samp>Mod</samp></kbd> > <kbd><samp>Edit Export Locations</samp></kbd> or <kbd>Ctrl</kbd> + <kbd>L</kbd> to edit the export locations.
+To setup exporting for one or more Switch emulators, use <kbd><samp>Mod</samp></kbd> &gt; <kbd><samp>Edit Export Locations</samp></kbd> or <kbd>Ctrl</kbd> + <kbd>L</kbd> to edit the export locations.
 
 - If you are using **yuzu**, enable the **first** entry listed <sup>[(1)](./images/ExportLocations.png)</sup>.
 - If you are using **Ryujinx**, enable the **second** entry listed <sup>[(2)](./images/ExportLocations.png)</sup>.
@@ -152,9 +152,9 @@ Click <kbd><samp>Close</samp></kbd> <sup>[(4)](./images/ExportLocations.png)</su
 
 ### Switch Setup
 
-Before starting, insert your SD card into your computer or use the [Hekate USB Tools](https://switchway.net/transfer-files-via-usb/) (<kbd><samp>Tools</samp></kbd> > <kbd><samp>USB Tools</samp></kbd> > <kbd><samp>SD Card</samp></kbd> in Hekate) to transfer over USB.
+Before starting, insert your SD card into your computer or use the [Hekate USB Tools](https://switchway.net/transfer-files-via-usb/) (<kbd><samp>Tools</samp></kbd> &gt; <kbd><samp>USB Tools</samp></kbd> &gt; <kbd><samp>SD Card</samp></kbd> in Hekate) to transfer over USB.
 
-Navigate to <kbd><samp>Tools</samp></kbd> > <kbd><samp>Export to SD Card</samp></kbd> or use <kbd>Ctrl</kbd> + <kbd>E</kbd> to open the export dialog.
+Navigate to <kbd><samp>Tools</samp></kbd> &gt; <kbd><samp>Export to SD Card</samp></kbd> or use <kbd>Ctrl</kbd> + <kbd>E</kbd> to open the export dialog.
 
 From there, select the SD card from the dropdown <sup>[(1)](./images/ExportForSwitch.png)</sup>.
 
