@@ -2,85 +2,115 @@
 title: Settings
 ---
 
-## Application Settings
-
-<p>
-    <img width="650" src="./images/Settings_General_Application.png">
-</p>
+# Settings
 
 ---
 
-### Theme
+## Application Settings
 
-Controls the application theme. Options are `Dark` and `Light` (default is the system theme).
+- [Theme](#theme)
+- [Show Console](#show-console)
+- [Auto Save Settings](#auto-save-settings)
+- [System Folder](#system-folder)
+- [7z Path](#7z-path)
+
+<br>
+
+### **Theme**
+
+Controls the application theme.
+
+<br>
 
 ### Show Console
 
-> \**Windows Only*
+Controls the console visibility on **Windows**.
 
-Controls whether or not the system console (command prompt) should remain open in the background.
-
-This can be useful for debugging and reporting errors.
+<br>
 
 ### Auto Save Settings
 
-Controls whether or not changes made to TKMM's settings are automatically saved.
+Controls whether or not the settings should be saved automatically.
+
+<br>
 
 ### System Folder
 
-This is the folder where your mods and profiles are stored.
+> [!CAUTION]
+> Changing this could result in data loss. Avoid changing this unless you know what you are doing.
 
-> [!NOTE]
-> Unless you have low disk space on your system drive, it is recommended to leave this as the default.
+Defines the folder where mods and profiles are stored.
+
+<br>
 
 ### 7z Path
 
-An optional field containing the path to the 7-zip executable. This speeds up extraction for mods installed via `.7z` files.
+> [!NOTE]
+> This field is optional but highly recomended.
+
+Stores the location of the installed 7-zip executable for faster `.7z` mod installation.
 
 ---
 
 ## Packaging Settings
 
-<p>
-    <img width="650" src="./images/Settings_General_Packaging.png">
-</p>
+- [Default Author](#default-author)
 
----
+<br>
 
 ### Default Author
 
-Controls is the default name to use when packaging new mods.
+> [!WARNING]
+> This setting is automatically set your computers username. Make sure this does not contain sensitive information that may be packaged and deployed in mods.
 
-> [!IMPORTANT]
-> By default this is your computers username. Make sure this does not contain sensitive information that may be packaged and deployed in mods.
+Defines the author name to use when packaging mods.
 
 ---
 
 ## Merging Settings
 
-<p>
-    <img width="650" src="./images/Settings_General_Merging.png">
-</p>
+- [Merged Mod Output Folder](#merged-mod-output-folder)
+- [Target Language](#target-language)
+- [Export Locations](#export-locations)
 
----
+<br>
 
 ### Merged Mod Output Folder
 
-This is the folder where the merged export from TKMM is saved to.
+> [!CAUTION]
+> The contents of this folder will be **permanently deleted** when merging.
+> 
+> **Do not set this to a folder with any valuable contents**.
 
-> [!IMPORTANT]
-> The contents of this folder will be deleted when merging, do not set it to a folder with any contents.
->
-> If you are unsure, leave this setting as the default.
+Defines the folder where the merged mod is stored.
+
+<br>
 
 ### Target Language
 
-Controls the language to prefer when merging mods.
+Sets the language and region to use when merging.
+
+<br>
 
 ### Export Locations
 
-<p>
-    <img width="450" src="./images/Settings_General_Merging_Custom_Exports.png">
-</p>
+Defines the location(s) to export the merged mod to.
 
-A menu to configure custom export locations. By default, the mod folders for Japanese Citrus Fruit and Ryujinx are listed here and toggled off. You can add additional paths by clicking the `+` button. As with the `Merged Mod Output Folder`, the contents of this folder will be deleted when merging mods, so be sure to set these folders carefully. If you play on emulator, this needs to be set to your emulator's TotK mod folder, followed by `\TKMM`.
+For usage details, refer to the [Using Mods](../using-mods/#emulator-setup) guide.
+
+---
+
+## TotK Settings
+
+- [Game Path](#game-path)
+
+<br>
+
+### Game Path
+
+> [!IMPORTANT]
+> This setting is **[required](../../faq/#why-do-i-need-a-full-game-dump)**.
+
+Defines the path to your **Tears of the Kingdom** romfs game dump.
+
+Refer to the [Setup](../#setup) guide for more information.
