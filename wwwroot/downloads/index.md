@@ -33,18 +33,16 @@ title: Downloads
 >   <a class="download-btn" id="download-linux" href="https://github.com/TKMM-Team/Tkmm/releases/latest/download/TKMM-Launcher-linux-arm64.zip">TKMM Launcher (arm64)</a>
 >   <a class="download-btn" id="download-src" href="https://learn.microsoft.com/dotnet/core/install/linux-package-managers?WT.mc_id=dotnet-35129-website">.NET Runtime Install Guide</a>
 > </div>
-> <br>
 
-> [!NOTE]
-> For Steam Decks, TKMM is available as a Flatpak. This can also be tested on other devices or distros for which the pre-compiled build may not work (though only x64 is available).
+> Flatpak for Linux x64
+> 
+> ```cs
+> flatpak remote-add --user TkmmRepo "https://repo.tkmm.org/.flatpakrepo"
+> flatpak install -y TkmmRepo io.github.tkmm_team.tkmm
+> ```
 
-The Flatpak installation is done by running the following commands in a terminal:
-
-```bash
-flatpak remote-add --user TkmmRepo https://repo.tkmm.org/.flatpakrepo
-flatpak install -y TkmmRepo io.github.tkmm_team.tkmm
-```
-After the installation is complete, you will find the shortcut to run the application under the `Utilities` category.
+> [!IMPORTANT]
+> The Flatpak version is required for the Stream Deck and other SteamOS installations.
 
 # [MacOS (Experimental)](#tab/macos)
 
