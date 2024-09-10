@@ -42,7 +42,7 @@ title: Downloads
 > ```
 
 > [!IMPORTANT]
-> The Flatpak version is required for the Stream Deck and other SteamOS installations.
+> The Flatpak version is required for the Steam Deck and other SteamOS installations.
 
 # [MacOS (Experimental)](#tab/macos)
 
