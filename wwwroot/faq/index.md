@@ -61,5 +61,5 @@ If your issue is persistent, please open an issue on the [GitHub repository](htt
 
 ## Where are logs stored?
 
-The TKMM logs are stored in the `logs.txt` file in the folder `\Documents\TotK Mod Manager\`.
+The TKMM logs are stored in the `log.txt` file in the folder `\Documents\TotK Mod Manager\`.
 
