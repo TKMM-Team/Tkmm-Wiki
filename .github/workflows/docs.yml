@@ -36,6 +36,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4.0.0
 
+      - name: Move 404.html
+        run: mv 404.html wwwroot/_site/404.html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
         with:
