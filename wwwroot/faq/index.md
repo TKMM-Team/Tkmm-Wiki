@@ -39,7 +39,7 @@ This however will not be the case for ExeFS mods and cheats, those need to be di
 
 ---
 
-## Why does text show as "MsgNotFound" in-game?
+## Why do I see "MsgNotFound" in-game?
 
 When mods edit or add more text, every language will not always be included. TKMM can handle this by applying text edits to the language you use in the game.
 
