@@ -67,9 +67,9 @@ If you play on emulator, please ensure you configured the proper [Export Locatio
 
 ## Why am I getting errors / crashes in-game?
 
-The most common problems are either caused by a corrupted game dump, or broken / incompatible mods.
+The most common problems are either caused by a corrupted game dump, broken / incompatible mods, or because your RomFS dump isn't the same version as the update you're playing on. 
 
-You can verify your game dump with <kbd><samp>Tools</samp></kbd> &gt; <kbd><samp>Check Dump Integrity</samp></kbd>. If any corrupted or missing files are detected, refer to the [RomFS dumping](https://zeldamods.org/wiki/Help:Dumping_games#Switch) guide to get a clean game dump. It is recommended to reinstall each mod after redumping (*does not apply for mods in the form of TKCL files*).
+You can check for corrupted or missing data with <kbd><samp>Tools</samp></kbd> &gt; <kbd><samp>Check Dump Integrity</samp></kbd>. If it detects any issues, refer to the [RomFS dumping](https://zeldamods.org/wiki/Help:Dumping_games#Switch) guide to get a clean game dump. It is recommended to reinstall each mod after redumping (*not needed for mods in the form of TKCL files*).
 
 In the case of broken or incompatible mods, the best you can do is disable mods one by one and test again until you find which ones are causing problems. Sometimes, this can also be fixed by changing the [priority order](https://tkmm.org/docs/using-mods/#ordering-mods) of the mods in question.
 
