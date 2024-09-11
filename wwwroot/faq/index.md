@@ -39,7 +39,7 @@ This however will not be the case for ExeFS mods and cheats, those need to be di
 
 ---
 
-## Why does it say "MsgNotFound" everywhere in the game?
+## Why do I see "MsgNotFound" everywhere in-game?
 
 When mods edit or add more text, every language will not always be included. TKMM can handle this by applying text edits to the language you use in the game.
 
@@ -65,9 +65,9 @@ If you play on emulator, please ensure you configured the proper [Export Locatio
 
 ---
 
-## Why am I getting errors in TKMM, crashes in-game?
+## Why am I getting errors / crashes in-game?
 
-The most common errors are either caused by a corrupted game dump, or broken / incompatible mods.
+The most common problems are either caused by a corrupted game dump, or broken / incompatible mods.
 
 You can verify your game dump with <kbd><samp>Tools</samp></kbd> &gt; <kbd><samp>Check Dump Integrity</samp></kbd>. If any corrupted or missing files are detected, refer to the [RomFS dumping](https://zeldamods.org/wiki/Help:Dumping_games#Switch) guide to get a clean game dump. It is recommended to reinstall each mod after redumping (*does not apply for mods in the form of TKCL files*).
 
