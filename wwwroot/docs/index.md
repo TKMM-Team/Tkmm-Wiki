@@ -41,9 +41,11 @@ When TKMM first starts, you will most likely be asked to configure your game pat
     <img width="650" src="./images/(1.3)-EmptyGamePath.png" alt="Invalid Empty Game Path">
 </p>
 
-This field contains the path to your Tears of the Kingdom romfs game dump.
+This field contains the path to your Tears of the Kingdom RomFS game dump.
 
-If you do not already have the game dump on your computer, please follow [this guide](https://zeldamods.org/wiki/Help:Dumping_games#Switch) to legally obtain one.
+RomFS means `Read-Only Memory File System`, it is all of the files extracted from the game (not a NSP or XCI).
+
+If you do not already have a RomFS dump, please follow [this guide from zeldamods.org](https://zeldamods.org/wiki/Help:Dumping_games#Switch) to legally obtain one.
 
 > [!IMPORTANT]
 > When dumping your copy of the game, make sure you include the `1.1.0` update or later. `1.0.0` is [not supported by TKMM](/faq/#why-cant-i-use-version-100).
