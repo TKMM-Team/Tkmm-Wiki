@@ -67,7 +67,7 @@ title: Downloads
 
 ## Supported Platforms
 
-- **Windows 7+** | Fully supported
+- **[Windows 8.1+](https://docs.avaloniaui.net/docs/faq#what-versions-of-windows-are-supported)** | Fully supported
 - **Linux** | Partially supported
   - **SteamOS** | Experimental
   - **Switch (Lakka)** | Work in Progress
