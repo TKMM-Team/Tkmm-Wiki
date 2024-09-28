@@ -10,6 +10,7 @@
     --code-background: #c7c7c7;
     --bs-code-color: #333537;
     --bs-border-radius: 0.2rem;
+    --brand-foreground-color: #000000;
     --alert-tip-color: #49e463;
     --alert-info-color: #386ec0;
     --alert-warn-color: #ed7741;
@@ -22,6 +23,7 @@
     --bs-body-bg-rgb: 48, 54, 61;
     --bs-code-color: #d1d9e1;
     --code-background: #434343;
+    --brand-foreground-color: #FFFFFF;
 }
 
 a {
@@ -202,5 +204,5 @@ video {
 
 .navbar #navbar form.icons > a[title="Discord"],
 .navbar #navbar form.icons > a[title="GitHub"] {
-    color: #ffffff;
+    color: var(--brand-foreground-color);
 }
