@@ -199,3 +199,8 @@ video {
         color: var(--alert-important-color);
     }
 }
+
+.navbar #navbar form.icons > a[title="Discord"],
+.navbar #navbar form.icons > a[title="GitHub"] {
+    color: #ffffff;
+}
