@@ -8,14 +8,14 @@ title: Downloads
 > 
 > <div id="download-btns">
 >  <a class="download-btn" id="download-windows" href="https://github.com/TKMM-Team/Tkmm/releases/latest/download/TKMM-Launcher-win-x64.zip">TKMM Launcher (x64)</a>
->  <a class="download-btn" id="download-src" href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.6-windows-x64-installer">.NET Runtime (x64)</a>
+>  <a class="download-btn" id="download-src" href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.8-windows-x64-installer">.NET Runtime (x64)</a>
 > </div>
 
 > Downloads for Windows Snapdragon
 > 
 > <div id="download-btns">
 >   <a class="download-btn" id="download-windows" href="https://github.com/TKMM-Team/Tkmm/releases/latest/download/TKMM-Launcher-win-arm64.zip">TKMM Launcher (arm64)</a>
->   <a class="download-btn" id="download-src" href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.6-windows-arm64-installer">.NET 8 Runtime (arm64)</a>
+>   <a class="download-btn" id="download-src" href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.8-windows-arm64-installer">.NET 8 Runtime (arm64)</a>
 > </div>
 
 # [Linux](#tab/linux)
@@ -53,14 +53,14 @@ title: Downloads
 > 
 > <div id="download-btns">
 >   <a class="download-btn" id="download-macos" href="https://github.com/TKMM-Team/Tkmm/releases/latest/download/TKMM-Launcher-osx-arm64.zip">TKMM Launcher (arm64)</a>
->   <a class="download-btn" id="download-src" href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.6-macos-arm64-installer">.NET 8 Runtime</a>
+>   <a class="download-btn" id="download-src" href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.8-macos-arm64-installer">.NET 8 Runtime</a>
 > </div>
 
 > Downloads for MacOS x64
 > 
 > <div id="download-btns">
 >  <a class="download-btn" id="download-macos" href="https://github.com/TKMM-Team/Tkmm/releases/latest/download/TKMM-Launcher-osx-x64.zip">TKMM Launcher (x64)</a>
->  <a class="download-btn" id="download-src" href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.6-macos-x64-installer">.NET 8 Runtime</a>
+>  <a class="download-btn" id="download-src" href="https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-8.0.8-macos-x64-installer">.NET 8 Runtime</a>
 > </div>
 
 ---
