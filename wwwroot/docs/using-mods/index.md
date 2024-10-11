@@ -141,7 +141,7 @@ To setup exporting for one or more Switch emulators, use <kbd><samp>Mod</samp></
     <img width="650" src="./images/ExportLocations.png" alt="Export Locations">
 </p>
 
-If you are using another emulator, click the <kbd><samp>+</samp></kbd> <sup>[(3)](./images/ExportLocations.png)</sup> button and paste the path to a <strong style="color:red;">TKMM subfolder</strong> in your emulator's mod folder.
+If you are using another emulator, click the <kbd><samp>+</samp></kbd> <sup>[(3)](./images/ExportLocations.png)</sup> button and paste the path to a <strong>TKMM subfolder</strong> in your emulator's mod folder.
 
 Click <kbd><samp>Close</samp></kbd> <sup>[(4)](./images/ExportLocations.png)</sup> to save and close.
 

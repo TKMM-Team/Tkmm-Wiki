@@ -56,6 +56,11 @@ h6 {
     margin: 0 0 0.9rem 0;
 }
 
+strong {
+    color: #c94646;
+    font-weight: bold;
+}
+
 code {
     font-family: 'Ubuntu Mono';
     border-radius: var(--bs-border-radius);
