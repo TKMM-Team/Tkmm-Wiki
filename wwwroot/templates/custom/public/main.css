@@ -199,3 +199,13 @@ video {
         color: var(--alert-important-color);
     }
 }
+
+kbd {
+    background-color: rgba(0 0 0 / 0.05) !important;
+    color: var(--bs-body-color) !important;
+    border: solid 1px var(--bs-border-color);
+    border-bottom-color: var(--bs-border-color);
+    border-radius: 6px;
+    box-shadow: inset 0 -1px 0 var(--bs-border-color);
+    padding: .2rem .4rem;
+}
