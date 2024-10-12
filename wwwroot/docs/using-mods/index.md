@@ -1,5 +1,6 @@
 ---
 title: Using Mods
+description: Documentation on how to install, manage and merge mods in TKMM.
 ---
 
 # Using Mods

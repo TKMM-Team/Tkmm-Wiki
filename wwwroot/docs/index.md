@@ -1,5 +1,6 @@
 ---
 title: Getting Started
+description: Documentation on how to get stated using TKMM on desktop.
 ---
 
 # Getting Started
