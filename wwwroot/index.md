@@ -1,6 +1,6 @@
 ---
 _layout: landing
-title: Home
+title: TotK Mod Manager | Home
 ---
 
 <div align="center">
@@ -20,15 +20,15 @@ title: Home
   </a>
 </p>
 
-<div align="center">
-  <h4>Merge mods like never before!</h4>
-</div>
-
 ---
 
-TKMM is a mod manager and merger for Tears of the Kingdom developed by [TKMM-Team](./about#the-team).
+TKMM, or Tears of the Kingdom Mod Manager, is a mod merger and manager for TotK (yes, we have a very creative name).
 
-If you wish to show your support for the project, please leave a star on the [GitHub repository](https://github.com/TKMM-Team/Tkmm).
+Unlike other mod managers for TotK, TKMM merges the individual mod files to ensure the best possible compatibility with every mod available.
+
+This is currently only supported on desktop platforms, however, support for running on Switch hardware, mobile devices and the web is being worked on.
+
+Check out the [getting started](/docs/) page to use TKMM!
 
 ## Download TKMM
 
@@ -37,6 +37,8 @@ If you wish to show your support for the project, please leave a star on the [Gi
 </div>
 
 ---
+
+If you wish to show your support for the project, please leave a star on the [GitHub repository](https://github.com/TKMM-Team/Tkmm).
 
 <p>
   <a href="https://github.com/TKMM-Team/Tkmm/blob/master/License.md">
