@@ -28,13 +28,7 @@ Unlike other mod managers for TotK, TKMM merges the individual mod files to ensu
 
 This is currently only supported on desktop platforms, however, support for running on Switch hardware, mobile devices and the web is being worked on.
 
-Check out the [getting started](/docs/) page to use TKMM!
-
-## Download TKMM
-
-<div id="download-btns">
-  <a class="download-btn" id="download-all" href="./downloads/">Downloads</a>
-</div>
+Check out the [getting started](/docs/) page to download and use TKMM!
 
 ---
 
