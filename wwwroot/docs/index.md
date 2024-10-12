@@ -1,5 +1,6 @@
 ---
 title: Getting Started
+description: Documentation on how to get started using TKMM on desktop.
 ---
 
 # Getting Started

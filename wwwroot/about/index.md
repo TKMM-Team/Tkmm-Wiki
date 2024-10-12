@@ -1,6 +1,7 @@
 ---
 _layout: landing
 title: About
+description: Basic information about TKMM and the development team.
 ---
 
 # About

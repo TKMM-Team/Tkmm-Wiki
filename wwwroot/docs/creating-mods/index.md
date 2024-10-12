@@ -1,5 +1,6 @@
 ---
 title: Packaging Mods
+description: Documentation for creating mods with TKMM for desktop.
 ---
 
 # Packaging

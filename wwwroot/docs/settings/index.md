@@ -1,5 +1,6 @@
 ---
 title: Settings
+description: Settings documentation for the TKMM desktop application.
 ---
 
 # Settings
