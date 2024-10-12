@@ -1,5 +1,10 @@
 {
   "build": {
+    "sitemap": {
+      "baseUrl": "https://tkmm.org",
+      "priority": 1.0,
+      "changefreq": "weekly"
+    },
     "content": [
       {
         "files": [
