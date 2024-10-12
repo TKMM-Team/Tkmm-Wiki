@@ -1,5 +1,6 @@
 ---
 _layout: landing
+_appTitle: ~
 title: TotK Mod Manager | Home
 description: The home page for TKMM, a tool for managing and merging Tears of the Kingdom mods.
 ---
