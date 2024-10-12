@@ -34,6 +34,11 @@
     },
     "postProcessors": [
       "ExtractSearchIndex"
-    ]
+    ],
+    "sitemap": {
+      "baseUrl": "https://tkmm.org",
+      "priority": 0.1,
+      "changefreq": "daily"
+    }
   }
 }
