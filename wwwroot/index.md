@@ -20,7 +20,7 @@ description: The home page for TKMM, a tool for managing and merging Tears of th
 </script>
 
 <div align="center">
-  <a href="" title="TKMM landing page"><img src="images/Icon-Transparent-1024.png" width="300vh" alt="TKMM Logo"></a>
+  <a href="" title="TKMM landing page"><img src="logo.png" width="300vh" alt="TKMM Logo"></a>
   <h1 id="main-title">Tears of the Kingdom Mod Manager</h1>
 </div>
 
