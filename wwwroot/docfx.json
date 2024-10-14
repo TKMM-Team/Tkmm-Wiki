@@ -18,7 +18,10 @@
     "resource": [
       {
         "files": [
-          "**/images/**"
+          "**/images/**",
+          "favicon.ico",
+          "logo.png",
+          "logo.svg"
         ]
       }
     ],
@@ -32,8 +35,8 @@
       "_appName": "TotK Mod Manager",
       "_appTitle": "TKMM",
       "_enableSearch": true,
-      "_appLogoPath": "images/Icon-Transparent-1024.png",
-      "_appFaviconPath": "images/icon.ico",
+      "_appLogoPath": "logo.png",
+      "_appFaviconPath": "favicon.ico",
       "_appFooter": "<footer id=\"copyright\">(c) TKMM-Team and Contributors under the MIT License</footer>",
       "pdf": true
     },
