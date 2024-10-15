@@ -1,6 +1,23 @@
 ---
 title: Packaging Mods
 description: Documentation for creating mods with TKMM for desktop.
+theme-color: "#3e85c6"
+color-scheme: "dark light"
+twitter:image: "https://opengraph.githubassets.com/218db2a67d0fc3fe38618244f4657164b9d51785a2f5051e65a291c2d0c52710/dotnet/docfx/issues/1124"
+twitter:site: "@github"
+twitter:card: "summary_large_image"
+twitter:title: "Wrong favicon.ico  in _site · Issue #1124 · dotnet/docfx"
+twitter:description: "Title Wrong favicon.ico in _site Functional impact The generated _site contains the wrong favicon.ico when _appFaviconPath is specified in docfx.json. Minimal repro steps Add your own favicon.ico t..."
+og:image: "https://opengraph.githubassets.com/218db2a67d0fc3fe38618244f4657164b9d51785a2f5051e65a291c2d0c52710/dotnet/docfx/issues/1124"
+og:site_name: "GitHub"
+og:type: "object"
+og:title: "Wrong favicon.ico  in _site · Issue #1124 · dotnet/docfx"
+og:url: "https://github.com/dotnet/docfx/issues/1124"
+og:description: "Title Wrong favicon.ico in _site Functional impact The generated _site contains the wrong favicon.ico when _appFaviconPath is specified in docfx.json. Minimal repro steps Add your own favicon.ico t..."
+og:image:alt: Title Wrong favicon.ico in _site Functional impact The generated _site contains the wrong favicon.ico when _appFaviconPath is specified in docfx.json. Minimal repro steps Add your own favicon.ico t..."
+og:image:width: 1200"
+og:image:height: 600"
+og:author:username: richardschneider"
 ---
 
 # Packaging
