@@ -30,7 +30,7 @@ Mod folders must contain a `romfs`, `exefs` or `cheats` folder.
 
 To install a mod from [GameBanana](https://gamebanana.com/totk), use <kbd><samp>Mod</samp></kbd> &gt; <kbd><samp>Install from Argument</samp></kbd> and provide the mod ID or URL.
 
-Alternatively, you can use the built-in [GameBanana browser](#installing-a-mod-from-the-gamebanana-browser) to browse and install mods.
+Alternatively, you can use the built-in <a href="#installing-a-mod-from-the-gamebanana-browser" rel="nofollow">GameBanana browser</a> to browse and install mods.
 
 <br>
 
@@ -126,8 +126,8 @@ Merging may take some time, so be patient. When merging has completed a green ba
     <img width="650" src="./images/MergeCompleted.png" alt="Merge Completed">
 </p>
 
-- If you are playing on a **Switch emulator**, refer to the [emulator setup](#emulator-setup) section.
-- If you are playing on a **physical Switch**, refer to the [Switch setup](#switch-setup) section.
+- If you are playing on a **Switch emulator**, refer to the <a href="#emulator-setup" rel="nofollow">emulator setup</a> section.
+- If you are playing on a **physical Switch**, refer to the <a href="#switch-setup" rel="nofollow">Switch setup</a> section.
 
 <br>
 
