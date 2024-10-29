@@ -2,7 +2,7 @@
 _layout: landing
 _appTitle: ~
 title: TotK Mod Manager | Home
-description: The home page for TKMM, a tool for managing and merging Tears of the Kingdom mods.
+description: TKMM (TotK Mod Manager) is a tool for managing and merging mods for The Legend of Zelda: Tears of the Kingdom. It allows you to use multiple mods together, whether you play on Switch or emulator. Merge your mods with the TotK Mod Manager today, and have fun!
 ---
 
 <script type="application/ld+json">
