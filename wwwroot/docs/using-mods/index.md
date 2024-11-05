@@ -135,6 +135,11 @@ Merging may take some time, so be patient. When merging has completed a green ba
 
 To setup exporting for one or more Switch emulators, use <kbd><samp>Mod</samp></kbd> &gt; <kbd><samp>Edit Export Locations</samp></kbd> or <kbd>Ctrl</kbd> + <kbd>L</kbd> to edit the export locations.
 
+> [!NOTE]
+> On the currently available version (**1.0.0-beta11**), this setting is only available from the settings page, under <kbd><samp>Merging</kbd></samp> > <kbd><samp>Export Locations</kbd></samp>. 
+
+<br>
+
 - If you are using **yuzu**, enable the **first** entry listed <sup>[(1)](./images/ExportLocations.png)</sup>.
 - If you are using **Ryujinx**, enable the **second** entry listed <sup>[(2)](./images/ExportLocations.png)</sup>.
 
