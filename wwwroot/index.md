@@ -42,7 +42,7 @@ TKMM, or Tears of the Kingdom Mod Manager, is a mod merger and manager for TotK 
 
 Unlike other mod managers for TotK, TKMM merges the individual mod files to ensure the best possible compatibility with every mod available.
 
-TKMM is currently only available on desktop platforms, however, support for running on Switch hardware is being worked on (until then, you can merge mods on PC and transfer them to the Switch).
+TKMM is currently only available on desktop platforms, however, support for running on Switch hardware is being worked on (until this is available, mods can be merged on PC then transferred to a Switch).
 
 Check out the [getting started](/docs/) page to download and use TKMM!
 
