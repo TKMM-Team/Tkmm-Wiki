@@ -1,1 +1,1 @@
-docfx docfx.json --serve
+docfx wwwroot\docfx.json --serve
