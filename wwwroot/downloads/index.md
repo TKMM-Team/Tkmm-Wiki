@@ -47,13 +47,13 @@ description: Downloads page for TKMM.
 > Download AppImage for Linux x64
 >
 > <div id="download-btns">
->   <a class="download-btn" id="download-linux" onclick="ReturnToPage('/downloads/app-image')" href="https://github.com/TKMM-Team/Tkmm/releases/latest/download/Tkmm-linux-x64.AppImage">TKMM (x64)</a>
+>   <a class="download-btn" id="download-linux" download="Tkmm.AppImage" onclick="ReturnToPage('/downloads/app-image')" href="https://github.com/TKMM-Team/Tkmm/releases/latest/download/Tkmm-linux-x64.AppImage">TKMM (x64)</a>
 > </div>
 
 > Download AppImage for Linux Arm64
 >
 > <div id="download-btns">
->   <a class="download-btn" id="download-linux" onclick="ReturnToPage('/downloads/app-image')" href="https://github.com/TKMM-Team/Tkmm/releases/latest/download/Tkmm-linux-arm64.AppImage">TKMM (arm64)</a>
+>   <a class="download-btn" id="download-linux" download="Tkmm.AppImage" onclick="ReturnToPage('/downloads/app-image')" href="https://github.com/TKMM-Team/Tkmm/releases/latest/download/Tkmm-linux-arm64.AppImage">TKMM (arm64)</a>
 > </div>
 
 # [MacOS (Experimental)](#tab/macos)
