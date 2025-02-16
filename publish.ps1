@@ -1,0 +1,1 @@
+docfx --serve .\wwwroot\docfx.json
