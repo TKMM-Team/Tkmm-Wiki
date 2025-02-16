@@ -11,13 +11,13 @@ To learn how to install and merge mods, check out the [Using Mods](./using-mods/
 
 ## Installation
 
-On the [downloads](../downloads) page, locate and download the <kbd><samp>TKMM</samp></kbd> zip file for your operating system.
+Navigate to the [downloads](../downloads) page and download the version for your operating system.
+
+After downloading the version for your operating system, extract the archive contents file and run the contained executable. The following window will open.
 
 > [!IMPORTANT]
-> Since data for installed mods is stored in the same folder as the executable, it's strongly recommended to place the executable where you'd like it to stay prior to completing the setup wizard. 
-
-
-Once the download has completed, extract the **TKMM** zip file and run the contained executable. The following window will open.
+> TKMM user data (I.e. mods and profiles) is stored next to the executable.<br>
+> To avoid errors, avoid moving your TKMM installation, or move the entire installation folder.
 
 <p>
     <img width="650" src="./images/Setup_First.png" alt="TKMM Setup Starting Screen.">

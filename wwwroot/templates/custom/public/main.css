@@ -124,6 +124,16 @@ video {
     }
 }
 
+#download-switch {
+    background-color: #cd2332;
+    color: #eb9caa;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: #f4d8dc;
+    }
+}
+
 #download-linux {
     background-color: #654ccb;
     color: #ad9ceb;
@@ -141,6 +151,16 @@ video {
 
     &:hover {
         color: #def3dc;
+    }
+}
+
+#download-main {
+    background-color: #0d52b8;
+    color: #b4c9f6;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: #edf0f6;
     }
 }
 
