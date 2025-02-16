@@ -27,7 +27,7 @@ description: Downloads page for TKMM.
 > Download for Switch
 > 
 > <div id="download-btns">
->  <a class="download-btn" id="download-switch" onclick="ReturnToPage('/downloads/switch')" href="https://github.com/TKMM-Team/Tkmm/releases/latest/download/Tkmm-linux-x64.zip">TKMM-NX</a>
+>  <a class="download-btn" id="download-switch" onclick="ReturnToPage('/downloads/switch')" href="https://github.com/TKMM-Team/TKMM-NX/releases/latest/download/tkmm-nx.zip">TKMM-NX</a>
 > </div>
 
 # [Linux](#tab/linux)
