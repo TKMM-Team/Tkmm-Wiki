@@ -11,59 +11,30 @@ To learn how to install and merge mods, check out the [Using Mods](./using-mods/
 
 ## Installation
 
-On the [downloads](../downloads) page, locate and download the <kbd><samp>TKMM Launcher</samp></kbd> and <kbd><samp>.NET Runtime</samp></kbd> for your operating system.
+Navigate to the [downloads](../downloads) page and download the version for your operating system.
 
-When the downloads have completed, open the **.NET Runtime** installer and follow the prompts to completion.
-
-<p>
-    <img width="450" src="./images/(1.0)-DotnetRuntimeComplete.png" alt="TKMM launcher window.">
-</p>
-
-Once the **.NET Runtime** has finished installing, extract the **TKMM Launcher** zip file and run the contained executable.
-
-The following window will open.
-
-<p>
-    <img width="650" src="./images/(1.1)-Launcher.png" alt="TKMM launcher window.">
-</p>
-
-Click <kbd><samp>Install</samp></kbd> to begin the installation process.
+After downloading the version for your operating system, extract the archive contents file and run the contained executable. The following window will open.
 
 > [!IMPORTANT]
-> The TKMM installer requires a stable internet connection.
-
-When the installation completes, click <kbd><samp>Launch</samp></kbd> to open TKMM.
-
-## Setup
-
-When TKMM first starts, you will most likely be asked to configure your game path.
+> TKMM user data (i.e. mods and profiles) is stored next to the executable.<br>
+> To avoid errors, avoid moving your TKMM installation, or move the entire installation folder.
 
 <p>
-    <img width="650" src="./images/(1.3)-EmptyGamePath.png" alt="Invalid empty game path.">
+    <img width="650" src="./images/Setup_First.png" alt="TKMM Setup Starting Screen.">
 </p>
 
-This field contains the path to your Tears of the Kingdom RomFS game dump.
-
-RomFS means `Read-Only Memory File System`, it is all of the files extracted from the game (not a NSP or XCI).
-
-If you do not already have a RomFS dump, please follow [this guide from zeldamods.org](https://zeldamods.org/wiki/Help:Dumping_games#Switch) to legally obtain one.
-
-> [!IMPORTANT]
-> When dumping your copy of the game, make sure you include the `1.1.0` update or later. `1.0.0` is [not supported by TKMM](/faq/#why-cant-i-use-version-100).
-
-<p>
-    <img width="650" src="./images/(1.4)-InvalidGameVersion.png" alt="Invalid empty game path">
-</p>
-
-Once you have dumped your copy of the game's romfs, use the <kbd><samp>...</samp></kbd> button to browse to its location.
-
-When the game path is set correctly the field will turn green.
-
-<p>
-    <img width="650" src="./images/(1.5)-GoodGamePath.png" alt="Good game path entered.">
-</p>
+Follow the setup wizard to configure the game dump and language for TKMM. 
 
 > [!NOTE]
 > TKMM will output mods for the same version as the provided game dump.
 >
 > For example, if you are playing on `v1.1.2`, make sure your game dump is for `v1.1.2` as well.
+> Multiple game dump versions can be provided, and you can choose which version to output mods for from the Settings tab.
+> 
+> If you were not prompted to directly input a game dump location, then the preferred version will be automatically set based on the update detected.
+
+Once finished, you will land on the mods tab as shown below.
+
+<p>
+    <img width="650" src="./images/TKMM_ModsEmpty.png" alt="The TKMM Mods tab with no mods currently installed.">
+</p>

@@ -38,17 +38,24 @@ description: "TKMM (TotK Mod Manager) is a tool for managing and merging mods fo
 
 ---
 
+<div id="download-btns">
+  <a class="download-btn" id="download-main" href="./downloads">Download TKMM</a>
+</div>
+<br>
+
 TKMM, or Tears of the Kingdom Mod Manager, is a mod merger and manager for TotK (yes, we have a very creative name).
 
-Unlike other mod managers for TotK, TKMM merges the individual mod files to ensure the best possible compatibility with every mod available.
+Unlike other mod managers for TotK, TKMM merges the individual mod files to ensure the best possible compatibility with
+every mod available.
 
-TKMM is currently only available on desktop platforms, however, support for running on Switch hardware is being worked on (until this is available, mods can be merged on PC then transferred to a Switch).
+TKMM is currently available on desktop (Windows, Linux and macOS) and Switch.
 
-Check out the [getting started](/docs/) page to download and use TKMM!
+Check out the [downloads](./downloads) page to start using TKMM!
 
 ---
 
-If you wish to show your support for the project, please leave a star on the [GitHub repository](https://github.com/TKMM-Team/Tkmm).
+If you wish to show your support for the project, please leave a star on
+the [GitHub repository](https://github.com/TKMM-Team/Tkmm).
 
 <p>
   <a href="https://github.com/TKMM-Team/Tkmm/blob/master/License.md" class="plain">
