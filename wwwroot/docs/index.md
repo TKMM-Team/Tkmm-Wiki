@@ -9,6 +9,13 @@ This guide will walk through installing and setting up TKMM.
 
 To learn how to install and merge mods, check out the [Using Mods](./using-mods/) guide.
 
+> [!IMPORTANT]
+> Regardless of how you play Tears of the Kingdom, TKMM requires some form of a game dump.
+> If you do not already have a game dump, please use [NX Dump Tool](https://github.com/DarkMatterCore/nxdumptool/releases).
+> If you need support with using NX Dump Tool, the [NX Dump Tool Discord server](https://discord.gg/SCbbcQx) is the best place to get support.
+>
+> In order to use NX Dump Tool, you will need a modded Nintendo Switch. Please refer to [this guide](https://switch.hacks.guide) if you have not yet modded your system.
+
 ## Installation
 
 Navigate to the [downloads](../downloads) page and download the version for your operating system.
