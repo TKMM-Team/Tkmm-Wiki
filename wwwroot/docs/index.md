@@ -16,7 +16,7 @@ Navigate to the [downloads](../downloads) page and download the version for your
 After downloading the version for your operating system, extract the archive contents file and run the contained executable. The following window will open.
 
 > [!IMPORTANT]
-> TKMM user data (I.e. mods and profiles) is stored next to the executable.<br>
+> TKMM user data (i.e. mods and profiles) is stored next to the executable.<br>
 > To avoid errors, avoid moving your TKMM installation, or move the entire installation folder.
 
 <p>
