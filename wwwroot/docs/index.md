@@ -30,6 +30,8 @@ Follow the setup wizard to configure the game dump and language for TKMM.
 >
 > For example, if you are playing on `v1.1.2`, make sure your game dump is for `v1.1.2` as well.
 > Multiple game dump versions can be provided, and you can choose which version to output mods for from the Settings tab.
+> 
+> If you were not prompted to directly input a game dump location, then the preferred version will be automatically set based on the update detected.
 
 Once finished, you will land on the mods tab as shown below.
 
