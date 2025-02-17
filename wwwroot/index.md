@@ -50,7 +50,7 @@ every mod available.
 
 TKMM is currently available on desktop (Windows, Linux and macOS) and Switch.
 
-Check out the [getting started](./docs) page to download and use TKMM!
+Check out the [downloads](./downloads) page to start using TKMM!
 
 ---
 

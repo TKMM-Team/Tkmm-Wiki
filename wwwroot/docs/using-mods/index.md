@@ -14,6 +14,7 @@ To install a mod file, use <kbd><samp>Mod</samp></kbd> &gt; <kbd><samp>Install F
 The supported files formats are `.tkcl`, `.zip`, `.rar` and `.7z`.
 
 > [!TIP]
+> *(\*Desktop version only)*<br>
 > If you are installing `.7z` files, update your [Application Settings](../settings/#7z-path)' [7z Path](../settings/#application-settings) to make installation faster.
 
 <br>
@@ -126,28 +127,29 @@ Merging may take some time, so be patient. When merging has completed a green ba
     <img width="650" src="./images/MergeCompleted.png" alt="Merge Completed">
 </p>
 
-- If you are playing on a **Switch emulator**, refer to the <a href="#emulator-setup" rel="nofollow">emulator setup</a> section.
-- If you are playing on a **physical Switch**, refer to the <a href="#switch-setup" rel="nofollow">Switch setup</a> section.
+- If you are playing on a **physical Switch** but using TKMM on your PC, refer to the <a href="#switch-setup" rel="nofollow">Switch setup</a> section.
 
 <br>
 
-### Emulator Setup
+### Export Locations (Optional)
 
-To setup exporting for one or more Switch emulators, use <kbd><samp>Mod</samp></kbd> &gt; <kbd><samp>Edit Export Locations</samp></kbd> or <kbd>Ctrl</kbd> + <kbd>L</kbd> to edit the export locations.
+Export locations allow you to export your merged output to multiple locations without copying the contents.
 
-> [!NOTE]
-> On the currently available version (**1.0.0-beta11**), this option is only accessible from the Settings page, under <kbd><samp>Merging</kbd></samp> > <kbd><samp>Export Locations</kbd></samp>. 
+To setup export locations, navigate to <kbd><samp>Mod</samp></kbd> &gt; <kbd><samp>Edit Export Locations</samp></kbd>
+or <kbd>Ctrl</kbd> + <kbd>L</kbd> to open the export location editor.
 
-<br>
+Press the <kbd><samp>+</samp></kbd> <sup>[(3)](./images/ExportLocations.png)</sup> button to create a new entry, and then use the folder icon to browse to a folder
+or paste the folder path in the text box. 
 
-- If you are using **yuzu**, enable the **first** entry listed <sup>[(1)](./images/ExportLocations.png)</sup>.
-- If you are using **Ryujinx**, enable the **second** entry listed <sup>[(2)](./images/ExportLocations.png)</sup>.
+Repeat this step for any additional export locations you would like to have.
+
+> [!IMPORTANT]
+> An export location must refer to an empty folder, and cannot be the `Merge Output Folder`
+> specified in the `Merging` settings.
 
 <p>
     <img width="650" src="./images/ExportLocations.png" alt="Export Locations">
 </p>
-
-If you are using another emulator, click the <kbd><samp>+</samp></kbd> <sup>[(3)](./images/ExportLocations.png)</sup> button and paste the path to a <strong style="color:#c94646">TKMM subfolder</strong> in your emulator's mod folder.
 
 Click <kbd><samp>Close</samp></kbd> <sup>[(4)](./images/ExportLocations.png)</sup> to save and close.
 
@@ -156,16 +158,19 @@ Click <kbd><samp>Close</samp></kbd> <sup>[(4)](./images/ExportLocations.png)</su
 
 <br>
 
-### Switch Setup
+### PC to Switch Setup
+
+If you are playing on Switch, but using TKMM on desktop, follow these steps to use the merged mods
+from TKMM on your Switch.
 
 Before starting, insert your SD card into your computer or use the [Hekate USB Tools](https://switchway.net/transfer-files-via-usb/) (<kbd><samp>Tools</samp></kbd> &gt; <kbd><samp>USB Tools</samp></kbd> &gt; <kbd><samp>SD Card</samp></kbd> in Hekate) to transfer over USB.
 
 Navigate to <kbd><samp>Tools</samp></kbd> &gt; <kbd><samp>Export to SD Card</samp></kbd> or use <kbd>Ctrl</kbd> + <kbd>E</kbd> to open the export dialog.
 
-From there, select the SD card from the dropdown <sup>[(1)](./images/ExportForSwitch.png)</sup>.
+From there, select the SD card from the dropdown <sup>[(1)](#Image-ExportForSwitch)</sup>.
 
 <p>
-    <img width="650" src="./images/ExportForSwitch.png" alt="Export for Switch">
+    <img id="Image-ExportForSwitch" width="650" src="./images/ExportForSwitch.png" alt="Export for Switch">
 </p>
 
 Finally, press <kbd><samp>Export</samp></kbd> <sup>[(2)](./images/ExportForSwitch.png)</sup> and wait for the export to complete.
