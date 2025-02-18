@@ -19,6 +19,15 @@ description: Frequently asked questions for TKMM troubleshooting.
         },
         {
             "@type": "Question",
+            "name": "Can I use an external cartridge dumping tool to get the game files?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Because these tools only dump the information from the cartridge, they will only have the base game and firmware stored on them, which is not enough for TKMM to function.\n\n
+                Additionally, in order for these to be used, you must dump the `title.keys` and `prod.keys` files, and you will need to dump an update for the game."
+            }
+        },
+        {
+            "@type": "Question",
             "name": "Why can't I use version 1.0.0?",
             "acceptedAnswer": {
                 "@type": "Answer",
@@ -92,6 +101,14 @@ This is achieved by comparing the game's copyrighted file with the modded file.
 While this makes distributing mods easier, it also means that TKMM needs access to a copy of the game.
 
 Distributing any part of the game files is illegal, thus, TKMM requires you to provide your own legally obtained copy of the game.
+
+---
+
+## Can I use an external cartridge dumping tool to get the game files?
+
+Because these tools only dump the information from the cartridge, they will only have the base game and firmware stored on them, which is not enough for TKMM to function.
+
+Additionally, in order for these to be used, you must dump the `title.keys` and `prod.keys` files, and you will need to dump an update for the game.
 
 ---
 
