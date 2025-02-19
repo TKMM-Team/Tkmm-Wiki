@@ -1,6 +1,6 @@
 ---
 title: Getting Started
-description: Documentation on how to get started using TKMM on desktop.
+description: Documentation on how to get started using the TotK Mod Manager.
 ---
 
 # Getting Started
