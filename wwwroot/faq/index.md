@@ -62,7 +62,7 @@ description: Frequently asked questions for TKMM troubleshooting.
             "name": "Why aren't my mods showing up in-game?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "If you play on emulator, you need to ensure the path to the emulator's executable in Application Settings is correct (e.g. <code>C:\Games\Ryujinx\Ryujinx.exe</code>).\n\nWhen that path is filled, the Merge Output is automatically set to a new folder in the emulator's mod folder for TotK.\n\nFor example, the correct path for Ryujinx would be <code>C:\Users\YourUsername\AppData\Roaming\Ryujinx\mods\contents\0100f2c0115b6000\TKMM</code>."
+                "text": "If you play on Switch, ensure that you are running the latest version of Atmosphere. Follow [this guide](https://switch.hacks.guide) if your Switch isn't modded.\n\nIf you play on emulator, you need to ensure the path to the emulator's executable in Application Settings is correct (e.g. <code>C:\Games\Ryujinx\Ryujinx.exe</code>).\n\nWhen that path is filled, the Merge Output is automatically set to a new folder in the emulator's mod folder for TotK.\n\nFor example, a correct path for Ryujinx would be <code>C:\Users\YourUsername\AppData\Roaming\Ryujinx\mods\contents\0100f2c0115b6000\TKMM</code>.\n\nIf that path is empty, or does not point to the correct location, right click TotK in your emulator, and select <kbd><samp>Open Mod Data Location</samp></kbd> or <kbd><samp>Open Mod Folder</samp></kbd>. In the location that is now opened in your file explorer, create a new folder called <code>TKMM</code>, and set that newly created folder as the Merge Output."
             }
         },
         {
@@ -153,11 +153,15 @@ TKMM will never support AI files (<code>.ainb</code>), animation sequence files 
 
 ## Why aren't my mods showing up in-game?
 
+If you play on Switch, ensure that you are running the latest version of Atmosphere. Follow [this guide](https://switch.hacks.guide) if your Switch isn't modded.
+
 If you play on emulator, you need to ensure the path to the emulator's executable in Application Settings is correct (e.g. <code>C:\Games\Ryujinx\Ryujinx.exe</code>).
 
 When that path is filled, the Merge Output is automatically set to a new folder in the emulator's mod folder for TotK.
 
-For example, the correct path for Ryujinx would be <code>C:\Users\YourUsername\AppData\Roaming\Ryujinx\mods\contents\0100f2c0115b6000\TKMM</code>.
+For example, a correct Merge Output path for Ryujinx would be <code>C:\Users\YourUsername\AppData\Roaming\Ryujinx\mods\contents\0100f2c0115b6000\TKMM</code>.
+
+If that path is empty, or does not point to the correct location, right click TotK in your emulator, and select <kbd><samp>Open Mod Data Location</samp></kbd> or <kbd><samp>Open Mod Folder</samp></kbd>. In the location that is now opened in your file explorer, create a new folder called <code>TKMM</code>, and set that newly created folder as the Merge Output.
 
 ---
 
