@@ -7,7 +7,7 @@ export default {
         },
         {
             icon: 'discord',
-            href: 'https://discord.gg/BbVXenRFVc',
+            href: 'https://tkmm.org/discord',
             title: 'Discord'
         }
     ]

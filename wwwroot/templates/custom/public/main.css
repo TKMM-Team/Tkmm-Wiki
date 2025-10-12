@@ -71,6 +71,7 @@ code {
 
 video {
     border-radius: var(--bs-border-radius);
+    max-width: 100% !important;
 }
 
 .content {

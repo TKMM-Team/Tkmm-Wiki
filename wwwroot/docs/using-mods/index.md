@@ -127,7 +127,7 @@ Merging may take some time, so be patient. When merging has completed a green ba
     <img width="650" src="./images/MergeCompleted.png" alt="Merge Completed">
 </p>
 
-- If you are playing on a **physical Switch** but using TKMM on your PC, refer to the <a href="#switch-setup" rel="nofollow">Switch setup</a> section.
+- If you are playing on a **physical Switch** but using TKMM on your PC, refer to the <a href="#pc-to-switch-setup" rel="nofollow">Switch setup</a> section.
 
 <br>
 
@@ -160,8 +160,7 @@ Click <kbd><samp>Close</samp></kbd> <sup>[(4)](./images/ExportLocations.png)</su
 
 ### PC to Switch Setup
 
-If you are playing on Switch, but using TKMM on desktop, follow these steps to use the merged mods
-from TKMM on your Switch.
+If you are playing on Switch, but using TKMM on desktop, follow these steps to use the merged mods from TKMM on your Switch.
 
 Before starting, insert your SD card into your computer or use the [Hekate USB Tools](https://switchway.net/transfer-files-via-usb/) (<kbd><samp>Tools</samp></kbd> &gt; <kbd><samp>USB Tools</samp></kbd> &gt; <kbd><samp>SD Card</samp></kbd> in Hekate) to transfer over USB.
 
