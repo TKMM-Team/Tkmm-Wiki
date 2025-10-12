@@ -51,6 +51,14 @@ description: Frequently asked questions for TKMM troubleshooting.
         },
         {
             "@type": "Question",
+            "name": "How do I use cheats?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The method for enabling cheats depends on what you use to play the game:<br/><br/><ul><li><b>Nintendo Switch:</b> Use a cheat manager like EdiZon to enable cheats. You can also configure cheats to be enabled by default by editing <code>/atmosphere/config/system_settings.ini</code> and setting <code>dmnt_cheats_enabled_by_default = u8!0x1</code>.</li><li><b>Ryujinx:</b> Use the built-in cheat manager within the emulator while the game is running.</li><li><b>Yuzu (and forks):</b> Cheats are enabled by default and will work automatically.</li></ul>"
+            }
+        },
+        {
+            "@type": "Question",
             "name": "What files can TKMM merge?",
             "acceptedAnswer": {
                 "@type": "Answer",
@@ -78,7 +86,7 @@ description: Frequently asked questions for TKMM troubleshooting.
             "name": "Where are logs stored?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "The TKMM logs are stored in the <code>Logs</code> folder next to the executable (<code>Tkmm.exe</code> on Windows).\n\nOn the Switch version, the logs are stored in the folder <code>tkmm/storage/.tkmm/Logs</code> on your SD card."
+                "text": "The TKMM logs are stored in the <code>Logs</code> folder next to the executable (<code>Tkmm.exe</code> on Windows).\n\nOn the Switch version, the logs are stored in the folder <code>tkmm/Logs</code> on your SD card."
             }
         }
       ]
@@ -139,6 +147,15 @@ For example, if you play in <ins>English</ins> and your region is set to <ins>Am
 
 ---
 
+## How do I use cheats?
+
+The method for enabling cheats depends on what you use to play the game:
+- **Nintendo Switch:** Use a cheat manager like [EdiZon](https://github.com/WerWolv/EdiZon) to enable cheats. You can also configure cheats to be enabled by default by editing `/atmosphere/config/system_settings.ini` and setting `dmnt_cheats_enabled_by_default = u8!0x1`.
+- **Ryujinx:** Use the built-in cheat manager within the emulator while the game is running.
+- **Yuzu (and forks):** Cheats are enabled by default and will work automatically.
+
+---
+
 ## What files can TKMM merge?
 
 TKMM can merge archive files (<code>.sarc</code>, <code>.pack</code>), parameter files (<code>.bgyml</code>), the resource database (RSDB), the Mals system (Mals) and the resource size table (RESTBL).
@@ -183,4 +200,4 @@ If all else fails and your issue is persistent, please open an issue on the <a h
 
 The TKMM logs are stored in the <code>Logs</code> folder next to the executable (<code>Tkmm.exe</code> on Windows).
 
-On the Switch version, the logs are stored in the folder <code>tkmm/storage/.tkmm/Logs</code> on your SD card.
+On the Switch version, the logs are stored in the folder <code>tkmm/Logs</code> on your SD card.

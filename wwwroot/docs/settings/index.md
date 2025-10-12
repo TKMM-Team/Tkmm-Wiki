@@ -97,7 +97,7 @@ Sets the language and region to use when merging.
 
 Defines the location(s) to export the merged mod to.
 
-For usage details, refer to the [Using Mods](../using-mods/#emulator-setup) guide.
+For usage details, refer to the [Using Mods](../using-mods) guide.
 
 ---
 
@@ -110,7 +110,7 @@ For usage details, refer to the [Using Mods](../using-mods/#emulator-setup) guid
 ### Game Path
 
 > [!IMPORTANT]
-> This setting is **[required](../../faq/#why-do-i-need-a-full-game-dump)**.
+> This setting is **[required](../../faq/#why-do-i-need-a-game-dump)**.
 
 Defines the path to your **Tears of the Kingdom** romfs game dump.
 
