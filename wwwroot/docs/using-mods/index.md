@@ -9,7 +9,7 @@ This guide will go through installing mods, configuring mod options, and finally
 
 ## Installing Mods
 
-To install a mod file, use <kbd><samp>Mod</samp></kbd> &gt; <kbd><samp>Install File</samp></kbd> or the <kbd><samp>Install</samp></kbd> button below the mod list.
+To install a mod file, you select <kbd><samp>File</samp></kbd> &gt; <kbd><samp>Install File</samp></kbd>, the <kbd><samp>Add Mod</samp></kbd> button below the mod list, or you can drag and drop the file directly into the TKMM window.
 
 The supported files formats are `.tkcl`, `.zip`, `.rar` and `.7z`.
 
@@ -21,7 +21,7 @@ The supported files formats are `.tkcl`, `.zip`, `.rar` and `.7z`.
 
 ### Installing a Mod Folder
 
-To install a mod folder, use <kbd><samp>Mod</samp></kbd> &gt; <kbd><samp>Install Folder</samp></kbd>.
+To install a mod folder, use <kbd><samp>File</samp></kbd> &gt; <kbd><samp>Install Folder</samp></kbd> or the <kbd><samp>Add Mod</samp></kbd> button below the mod list.
 
 Mod folders must contain a `romfs`, `exefs` or `cheats` folder.
 
@@ -43,16 +43,16 @@ To open the built-in [GameBanana](https://gamebanana.com/totk) browser, click th
     <img width="650" src="./images/GameBananaPage.png" alt="GameBanana Mod Browser Page">
 </p>
 
-To install a mod from the built-in [GameBanana](https://gamebanana.com/totk) browser, click the mod title <sup>[(2)](./images/GameBananaPage.png)</sup> and select a file in the dialog popup <sup>[(3)](./images/GameBananaPageInstallMod.png)</sup>.
+To install a mod from the built-in [GameBanana](https://gamebanana.com/totk) browser, click the mod title <sup>[(2)](./images/GameBananaPage.png)</sup> and scroll down until you find the Downloads section on the right side, just below the Contributors section. Be sure to pay attention to any notes left by the mod creator regarding which file to use with TKMM, if specified<sup>[(3)](./images/GameBananaPageInstallMod.png)</sup>.
 
 <p>
     <img width="650" src="./images/GameBananaPageInstallMod.png" alt="GameBanana Mod Browser Page Install Mod Popup">
 </p>
 
-Once you have selected the file you wish to install, click <kbd><samp>Install</samp></kbd> <sup>[(4)](./images/GameBananaPageInstallMod.png)</sup> and wait for the installation to complete.
+To install one of the files, click on the download icon<sup>[(4)](./images/GameBananaPageInstallMod.png)</sup> and wait for the installation to complete.
 
 > [!NOTE]
-> When possible, install the file that matches your game version.
+> When possible, install the file that matches your game version if a TKCL is not available.
 
 <br>
 
