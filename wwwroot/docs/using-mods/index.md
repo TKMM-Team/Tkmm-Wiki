@@ -39,6 +39,9 @@ Alternatively, you can use the built-in <a href="#installing-a-mod-from-the-game
 
 To open the built-in [GameBanana](https://gamebanana.com/totk) browser, click the <kbd><samp>GameBanana Mod Browser</samp></kbd> <sup>[(1)](./images/GameBananaPage.png)</sup> tab in the navigation bar.
 
+> [!IMPORTANT]
+> When using TKMM-NX, if the GameBanana mod browser is not working, ensure that the [network options](../../tkmm-nx/#network-setup-optional) have been configured.
+
 <p>
     <img width="650" src="./images/GameBananaPage.png" alt="GameBanana Mod Browser Page">
 </p>
