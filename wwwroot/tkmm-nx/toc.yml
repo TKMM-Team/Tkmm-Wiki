@@ -1,0 +1,10 @@
+- name: Getting Started
+  href: index.md
+- name: Joy-Con Controls
+  href: controls/
+- name: Troubleshooting
+  href: troubleshooting/
+- name: Dumping
+  href: dumping/
+- name: Transfer from System Memory to microSD
+  href: transfer-game/

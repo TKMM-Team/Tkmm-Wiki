@@ -15,10 +15,10 @@ description: Installation guide for TKMM-NX
 
 ## Prerequisites
 
-1. Tears of the Kingdom base game and update ([1.1.0 or later](../faq/#why-cant-i-use-version-100)) either installed on your SD card or dumped with [nxdumptool](https://github.com/DarkMatterCore/nxdumptool/releases) (as an XCI or NSP file).
-2. [Lockpick_RCM](https://github.com/impeeza/Lockpick_RCMDecScots/releases/latest/download/Lockpick_RCM_Hekate.zip) (For dumping your keys)
-3. [nxdumptool](https://github.com/DarkMatterCore/nxdumptool/releases) (Only required if your game/update is a cartridge, or installed to internal memory)
-4. [HEKATE](https://github.com/CTCaer/hekate/releases/latest) (Download the `hekate_ctcaer_(version).zip` release of hekate)
+1. Tears of the Kingdom base game and update ([1.1.0 or later](../faq/#why-cant-i-use-version-100)) either installed on your SD card or dumped with [nxdumptool](https://github.com/DarkMatterCore/nxdumptool/releases/tag/rewrite-prerelease) (as an XCI or NSP file).
+2. [Lockpick_RCM](https://github.com/impeeza/Lockpick_RCMDecScots/releases/latest/download/Lockpick_RCM.bin) (For dumping your keys)
+3. [nxdumptool](https://github.com/DarkMatterCore/nxdumptool/releases/tag/rewrite-prerelease) (Only required if your game/update is a cartridge, or installed to internal memory)
+4. [Hekate](https://github.com/CTCaer/hekate/releases/latest) (Download the latest `hekate_ctcaer_<version>.zip` release of Hekate)
 
 <br>
 
@@ -28,13 +28,24 @@ description: Installation guide for TKMM-NX
 
 To install TKMM-NX, 
 
-- Download [`tkmm-nx.zip`](https://github.com/TKMM-Team/TKMM-NX/releases/latest/download/tkmm-nx.zip) and extract it to the root of the SD card (or install it later from the Homebrew app).
-- Extract `hekate_ctcaer_(version).zip` and `Lockpick_RCM_Hekate.zip` to the root of the SD card (replace existing files if prompted).
-- If needed, install [nxdumptool](https://github.com/DarkMatterCore/nxdumptool/releases) by copying `nxdt_rw_poc.nro` to the `/switch` folder in the root of the SD card. (See [Ensure TotK is Accessible](#2-ensure-tears-of-the-kingdom-is-accessible) to determine if you need this.)
+- Download [`tkmm-nx.zip`](https://github.com/TKMM-Team/TKMM-NX/releases/latest/download/tkmm-nx.zip) and extract it to the root of the SD card (or install it later from the Homebrew app store).
+- Install [Lockpick](https://github.com/impeeza/Lockpick_RCMDecScots/releases/latest/download/Lockpick_RCM.bin) by copying `Lockpick_RCM.bin` to the folder `/bootloader/payloads` on your SD card and overwrite it if already existing (if you already had Lockpick, you still need to download the latest version and replace it).
+- Extract `hekate_ctcaer_(version).zip` to the root of the SD card (replace existing files if prompted).
 
 <br>
 
-### 2. Ensure Tears of the Kingdom is Accessible
+
+### 2. Dumping Keys
+
+To dump the Switch's keys, open the Payloads section in Hekate and launch `Lockpick_RCM.bin`, then select either `Dump from SysNAND` if you play the game on SysMMC, or `Dump from EmuNAND` if you play the game on EmuMMC. (Use the power button to select and volume up/down to navigate.)
+
+If you already dumped your keys prior to following this tutorial, you still need to redump them using the latest version of Lockpick.
+
+If your Switch firmware receives a major update in the future (e.g. going from 21.x.x to 22.x.x), you will also need to redownload the newest version of Lockpick and redump the keys again.
+
+<br>
+
+### 3. Ensure Tears of the Kingdom is Accessible
 
 TKMM-NX needs access to the base game and update data (version `1.1.0` or later) in order to function, as well as the Switch's keys to decrypt them.
 
@@ -44,41 +55,13 @@ To determine where the base game and update data are installed, refer to `Data M
     <img width="650" src="./images/SwitchDataManagement.jpg" alt="Switch Data Management">
 </p>
 
-If both `Software` and `Update Data` are listed under `microSD Card`, you do not need to dump your game, and all that is required is [dumping the Switch's keys](#3-dumping-keys).
+If both `Software` and `Update Data` are listed under `microSD Card`, you do not need to dump or move your game to the SD card.
 
-Otherwise, only parts **not installed** on the `microSD Card` need to be dumped. Refer to [Dumping Tears of the Kingdom](#4-dumping-tears-of-the-kingdom) for more information.
+Otherwise, only parts **not installed** on the `microSD Card` require either one of the two solutions below:
 
-<br>
+- The first method (recommended if you have a digital copy of the game), is to transfer the game from system memory to the SD card. Refer to [this tutorial](./transfer-game/) for more information. **This cannot be done for the base game if your copy is a physical cartridge.**
 
-### 3. Dumping Keys
-
-To dump the Switch's keys, open the Payloads option in HEKATE and launch `Lockpick_RCM.bin`, then select `Dump from SysNAND`. (Use the power button to select and volume up/down to navigate.)
-
-<br>
-
-### 4. Dumping Tears of the Kingdom
-
-Begin by running nxdumptool (`nxdt_rw_poc`) from the Homebrew Launcher.
-
-<br>
-
-#### Base Game
-
-- If the base game is a **cartridge**, insert the cartridge, then navigate to `gamecard menu` / `dump gamecard image (xci)` and select `start xci dump`.
-- If the base game is **installed to system memory**, open the `user titles menu`, select <ins>Tears of the Kingdom</ins>, navigate to `nsp dump options` > `dump base application` and finally select `start nsp dump`. (It is also possible to re-download the game from the e-shop, which will install it on the SD card and save space in the system memory. If this is done, be sure to run the game at least once, and [dump the keys](#3-dumping-keys) again.)
-
-<br>
-
-#### Update
-
-- If the base game is installed to system memory, open the `user titles menu`, select <ins>Tears of the Kingdom</ins>, navigate to `nsp dump options` > `dump update` and finally select `start nsp dump`. (It is also possible to re-download the game from the e-shop, which will install it on the SD card and save space in the system memory. If this is done, be sure to run the game at least once, and [dump the keys](#3-dumping-keys) again.)
-
-<br>
-
-Join the [nxdumptool Discord server](https://discord.gg/SCbbcQx) for assistance on how to dump if needed.
-
-> [!TIP]
-> TKMM can handle split files; combining them after dumping is not required.
+- The second method (mandatory if your copy of the game is a physical cartridge) is to dump the game to the SD card. Refer to [Dumping Tears of the Kingdom](./dumping/) for more information. This method is inefficient for digital copies of the game, because you will end up with the game stored both on system memory **and** the SD card.
 
 <br>
 
@@ -89,26 +72,27 @@ Join the [nxdumptool Discord server](https://discord.gg/SCbbcQx) for assistance 
 If TKMM-NX was not installed in the [preparation](#preparation) section by extracting it to the SD card, it can be installed from the Homebrew App Store (under the advanced category).
 
 <p>
-    <img width="450" src="./images/HomebrewAppStore.jpg" alt="Homebrew App Store">
+    <img width="650" src="./images/HomebrewAppStore.jpg" alt="Homebrew App Store">
 </p>
 
 <br>
 
 ### Post-Installation Setup
 
-If TKMM-NX is installed correctly, a boot entry for `TKMM` will appear under `More Configs` in HEKATE.
+If TKMM-NX is installed correctly, a boot entry for `TKMM` will appear under `More Configs` in Hekate.
 
 <p>
-    <img width="450" src="./images/HekateMoreConfigs.jpg" alt="Hekate">
+    <img width="650" src="./images/HekateMoreConfigs.jpg" alt="Hekate">
 </p>
 
 The first time TKMM-NX is opened, the setup wizard will appear. If the [preparation](#preparation) section was done correctly, no additional setup will be required.
+<p>
+    <img width="650" src="./images/TkmmWelcomePage.jpg" alt="TKMM Welcome Screen">
+</p>
 
 If the setup wizard cannot find the keys or the game/update, review the steps in the [preparation](#preparation) section.
 
-<p>
-    <img width="450" src="./images/TkmmWelcomePage.jpg" alt="TKMM Welcome Screen">
-</p>
+If you get kernel errors, or any L4T errors preventing you to boot into TKMM-NX (`wrong image format for bootm command`, or `failed to load kernel` for example), refer to the [Troubleshooting page](./troubleshooting/).
 
 <br>
 
@@ -119,7 +103,7 @@ To enable the GameBanana mod browser and other network features, TKMM-NX must be
 To connect to a wireless network, navigate to the network page (Wi-Fi icon on the bottom left) and select `Connect` on a wireless network. Enter the password if needed, and wait for the status to change to `Connected`.
 
 <p>
-    <img width="450" src="./images/TkmmNetworkPage.jpg" alt="TKMM Network Page">
+    <img width="650" src="./images/TkmmNetworkPage.jpg" alt="TKMM Network Page">
 </p>
 
 > [!NOTE]
@@ -136,26 +120,32 @@ Mods can be installed from either the built-in GameBanana browser or by selectin
 Refer to the [Using Mods](../docs/using-mods/) page for more information on how to install mods with TKMM.
 
 > [!IMPORTANT]
+> On Switch firmware 20.0.0 and higher, enabling the [TotK Optimizer](#integrated-totk-optimizer--ultracam) is mandatory, otherwise the game will crash at launch.
+> 
 > After making any changes to the mod list, you must click `Apply` on the home page for changes to take effect.
 
 <br>
 
 ### Leaving TKMM-NX
 
-To reboot to HEKATE, select `Reboot` from the `TKMM-NX` menu at the top right.
+To reboot to Hekate, select `Reboot` from the `TKMM-NX` menu at the top right.
 
 <p>
     <img width="650" src="./images/TkmmRebootMenu.jpg" alt="TKMM Reboot Menu">
 </p>
 
-For convenience, it is also possible to press the `Home button` to show a pop-up allowing you to reboot or shut down.
+For convenience, it is also possible to press the `Home button` to show the Reboot2Config menu allowing you to select which boot entry in Hekate you would like to reboot to. Use the D-Pad to navigate between available options, or simply swipe up and down to switch pages.
+
+<p>
+    <img width="650" src="./images/Reboot2Config.gif" alt="R2C Menu">
+</p>
 
 <br>
 
 ### Additional Information
 
 - Pressing the `Capture button` will create a screenshot in the `tkmm/screenshots` folder on the SD card.
-- If required for diagnosing an issue, the logs are located in `tkmm/storage/.tkmm/Logs` on the SD card.
+- Providing logs is required for requesting assistance, those are located in `tkmm/Logs` on the SD card.
 
 For more detailed help on how to use TKMM, please refer to the [documentation](https://tkmm.org/docs), or join the [TKMM Discord server](https://tkmm.org/discord).
 
