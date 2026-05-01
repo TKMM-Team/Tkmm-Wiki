@@ -38,7 +38,7 @@ Try either of the two methods below to fix the boot errors.
 If your PC is on Windows, plug your micro SD card to your PC, either by using an adapter, or with a USB cable (using Hekate UMS on your Switch). Then, right click the SD card in your File Explorer and go to `Properties`. Inside the properties window, go to the `Tools` tab and press the `Check` button (see screenshot below). This will scan the SD card for corruption issues and repair them.
 
 <p>
-    <img width="350" src="../images/CheckMicroSD.png" alt="Scan and repair SD card">
+    <img src="../images/CheckMicroSD.png" alt="Scan and repair SD card">
 </p>
 
 If your PC is running Linux or macOS, follow [this guide](https://wiki.hacks.guide/wiki/Checking_SD_card_integrity).
@@ -72,6 +72,6 @@ If nothing works at all, you may attempt the steps described below.
 
 ## SD Card Compatibility
 
-If none of the methods provided helped fix the boot errors, it is highly likely that your SD card is simply incompatible (check the [Switchroot SD card guide](https://wiki.switchroot.org/wiki/sd-card-guide)). You may need to acquire a new SD card to get TKMM-NX working on your Switch, if so, the Samsung Pro ones are the most recommended.
+If none of the methods provided helped fix the boot errors, it is highly likely that your SD card is simply incompatible (check the [Switchroot SD card guide](https://wiki.switchroot.org/wiki/sd-card-guide)). You may need to acquire a new SD card to get TKMM-NX working on your Switch, if so, the Samsung Pro ones are the ones we most recommend.
 
 Alternatively, you may use the [Desktop version](../../docs/) of TKMM on your PC, and export the mods to your SD card.

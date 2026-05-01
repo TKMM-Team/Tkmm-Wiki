@@ -17,8 +17,7 @@ description: Installation guide for TKMM-NX
 
 1. Tears of the Kingdom base game and update ([1.1.0 or later](../faq/#why-cant-i-use-version-100)) either installed on your SD card or dumped with [nxdumptool](https://github.com/DarkMatterCore/nxdumptool/releases/tag/rewrite-prerelease) (as an XCI or NSP file).
 2. [Lockpick_RCM](https://github.com/impeeza/Lockpick_RCMDecScots/releases/latest/download/Lockpick_RCM.bin) (For dumping your keys)
-3. [nxdumptool](https://github.com/DarkMatterCore/nxdumptool/releases/tag/rewrite-prerelease) (Only required if your game/update is a cartridge, or installed to internal memory)
-4. [Hekate](https://github.com/CTCaer/hekate/releases/latest) (Download the latest `hekate_ctcaer_<version>.zip` release of Hekate)
+3. [Hekate](https://github.com/CTCaer/hekate/releases/latest) (Download the latest `hekate_ctcaer_<version>.zip` release of Hekate)
 
 <br>
 
@@ -69,7 +68,7 @@ Otherwise, only parts **not installed** on the `microSD Card` require either one
 
 ### Installing from the Homebrew App Store
 
-If TKMM-NX was not installed in the [preparation](#preparation) section by extracting it to the SD card, it can be installed from the Homebrew App Store (under the advanced category).
+If TKMM-NX was not installed in the [preparation](#preparation) section by extracting it to the SD card, it can be installed from the [Homebrew App Store](https://github.com/fortheusers/hb-appstore) (under the `Advanced` category).
 
 <p>
     <img width="650" src="./images/HomebrewAppStore.jpg" alt="Homebrew App Store">
@@ -108,6 +107,8 @@ To connect to a wireless network, navigate to the network page (Wi-Fi icon on th
 
 > [!NOTE]
 > If network features aren't working, ensure that `WiFi Enabled` is toggled `ON` under `Services`.
+> 
+> Connecting to Wi-Fi while in TKMM-NX is safe and will not result in a console ban. Since this is a sandbox environment completely isolated from HOS, there is no Nintendo telemetry.
 
 <br>
 

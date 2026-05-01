@@ -8,7 +8,7 @@ description: Installation guide for TKMM-NX
 
 <br>
 
-In order to transfer the game from system memory to the SD card, open to the Switch settings and go to the `Data Management` section, then select the option `Move Data Between Console/microSD Card`
+In order to transfer the game from system memory to the SD card, open to the Switch settings and go to the `Data Management` section, then select the option `Move Data Between System/microSD Card`
 
 <p>
     <img width="650" src="../images/TransferToSD1.png" alt="Transfer to SD card (scr 1)">
