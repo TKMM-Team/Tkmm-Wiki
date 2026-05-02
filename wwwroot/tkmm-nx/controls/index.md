@@ -8,7 +8,13 @@ description: Joy-Con Controls for TKMM-NX
 
 <br>
 
+<p>
+    <img width="650" src="../images/JoyConControls.png" alt="Switch Data Management">
+</p>
+
 <div style="max-width: 500px; margin-left: 0; margin-right: auto;">
+
+<br>
 
 | Button | Action |
 |:---:|:---:|
@@ -21,7 +27,6 @@ description: Joy-Con Controls for TKMM-NX
 | ZR | Left Mouse Click |
 | Left Stick | Controls the mouse |
 | Right Stick | Controls scrolling |
-| R3 | Middle Mouse Click |
 | Home | Open Reboot2Config Menu |
 | Capture | Take a screenshot |
 | D-Pad Up | Key. UP |
