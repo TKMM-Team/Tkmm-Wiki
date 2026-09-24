@@ -6,6 +6,11 @@ description: Troubleshooting guide for TKMM-NX
 
 # Troubleshooting TKMM-NX booting issues
 
+> [!NOTE]
+> The warning `Failed to open switchroot/joycon_mac.bin` can be safely ignored.
+>
+> This troubleshooting section only concerns booting issues, not setup or game dump issues.
+
 <br>
 
 ## Error: `Board was not initialized properly! Hang prevented`
@@ -40,13 +45,6 @@ If you get these errors, there are several possible scenarios why this would occ
 - when the file system of the SD card gets corrupted if not ejected properly.
 - when the SD card is incompatible (check the [compatibility guide](#sd-card-compatibility) link at the bottom of this page).
 - when you did not fully extract all files from the `tkmm-nx.zip` release.
-
-<br>
-
-> [!NOTE]
-> The warning `Failed to open switchroot/joycon_mac.bin` can be safely ignored.
->
-> This troubleshooting section only concerns booting issues, not setup or game dump issues.
 
 <br>
 
