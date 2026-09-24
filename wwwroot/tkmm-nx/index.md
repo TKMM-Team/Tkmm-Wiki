@@ -16,7 +16,7 @@ description: Installation guide for TKMM-NX
 ## Prerequisites
 
 1. Tears of the Kingdom base game and update ([1.1.0 or later](../faq/#why-cant-i-use-version-100)) either installed on your SD card or dumped with [nxdumptool](https://github.com/DarkMatterCore/nxdumptool/releases/tag/rewrite-prerelease) (as an XCI or NSP file).
-2. [Lockpick_RCM](https://github.com/impeeza/Lockpick_RCMDecScots/releases/latest/download/Lockpick_RCM.bin) (For dumping your keys)
+2. [Lockpick_RCM](https://github.com/impeeza/Lockpick_RCMDecScots/releases/latest) (For dumping your keys)
 3. [Hekate](https://github.com/CTCaer/hekate/releases/latest) (Download the latest `hekate_ctcaer_<version>.zip` release of Hekate)
 
 <br>
@@ -28,7 +28,7 @@ description: Installation guide for TKMM-NX
 To install TKMM-NX, 
 
 - Download [`tkmm-nx.zip`](https://github.com/TKMM-Team/TKMM-NX/releases/latest/download/tkmm-nx.zip) and extract it to the root of the SD card (or install it later from the Homebrew app store).
-- Install [Lockpick](https://github.com/impeeza/Lockpick_RCMDecScots/releases/latest/download/Lockpick_RCM.bin) by copying `Lockpick_RCM.bin` to the folder `/bootloader/payloads` on your SD card and overwrite it if already existing (if you already had Lockpick, you still need to download the latest version and replace it).
+- Install [Lockpick](https://github.com/impeeza/Lockpick_RCMDecScots/releases/latest) by copying `Lockpick_RCM.bin` to the folder `/bootloader/payloads` on your SD card and overwrite it if already existing (if you already had Lockpick, you still need to download the latest version and replace it).
 - Extract `hekate_ctcaer_(version).zip` to the root of the SD card (replace existing files if prompted).
 
 <br>

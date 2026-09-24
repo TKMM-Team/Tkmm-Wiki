@@ -8,17 +8,38 @@ description: Troubleshooting guide for TKMM-NX
 
 <br>
 
+## Error: `Board was not initialized properly! Hang prevented`
+
 <p>
-    <img width="450" src="../images/ImageError.jpg" alt="Image Error">
+    <img width="550" src="../images/ImageError1.jpg" alt="Image Error">
 </p>
+
+If you get this specific error, this is due to an outdated SDLoader firmware on your modchip.
+
+Please follow these instructions to fix this specific error (this is only for modchips):
+
+- download the latest [hwfly firmware](https://github.com/hwfly-nx/firmware/releases) and extract it
+- place the file called `hwfly_toolbox.bin` in your SD card's `/bootloader/payloads` folder
+- place the file called `sdloader.enc` at the root of your SD card
+- boot up your Switch to Hekate, press `Payloads`, then press `hwfly_toolbox.bin`
+- press the volume down button 2 times then press the power button
+- afterwards scroll down to the option called "power off" and press the power button
+- now boot it up and you should be good to go!
 
 <br>
 
-If you get errors preventing you from booting into TKMM-NX (`wrong image format for bootm command`, or `failed to launch kernel` for example), there are several possible reasons:
+## Errors: `wrong image format for bootm command` or `failed to launch kernel`
 
-- files can get corrupted when transferred with a bad USB cable, or faulty microSD adapter.
-- the file system of the SD card can get corrupted if it not ejected properly.
-- the SD card may just be incompatible (check compatibility guide link at the bottom of this page).
+<p>
+    <img width="550" src="../images/ImageError2.jpg" alt="Image Error">
+</p>
+
+If you get these errors, there are several possible scenarios why this would occur:
+
+- when files get corrupted if transferred with a bad USB cable, or faulty microSD adapter.
+- when the file system of the SD card gets corrupted if not ejected properly.
+- when the SD card is incompatible (check the [compatibility guide](#sd-card-compatibility) link at the bottom of this page).
+- when you did not fully extract all files from the `tkmm-nx.zip` release.
 
 <br>
 
@@ -29,11 +50,11 @@ If you get errors preventing you from booting into TKMM-NX (`wrong image format 
 
 <br>
 
-Try either of the two methods below to fix the boot errors.
+Try either of the two methods below to fix boot errors related to SD card issues.
 
 <br>
 
-## Method #1: Scanning and repairing the SD card
+### Method #1: Scanning and repairing the SD card
 
 If your PC is on Windows, plug your micro SD card to your PC, either by using an adapter, or with a USB cable (using Hekate UMS on your Switch). Then, right click the SD card in your File Explorer and go to `Properties`. Inside the properties window, go to the `Tools` tab and press the `Check` button (see screenshot below). This will scan the SD card for corruption issues and repair them.
 
@@ -47,7 +68,7 @@ After doing so, you may try to boot to TKMM-NX again and see if the boot issues 
 
 <br>
 
-## Method #2: Formatting the SD card
+### Method #2: Formatting the SD card
 
 If nothing works at all, you may attempt the steps described below. 
 
